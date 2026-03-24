@@ -1,2 +1,7 @@
 *venv*
 *pycache*
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.ipynb_checkpoints

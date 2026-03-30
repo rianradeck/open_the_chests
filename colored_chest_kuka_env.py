@@ -272,7 +272,7 @@ class ColoredChestKukaEnv(gym.Env):
         self.observation_space = spaces.Box(
             low=-np.inf,
             high=np.inf,
-            shape=(10,),
+            shape=(13,),
             dtype=np.float32,
         )
 
@@ -455,7 +455,7 @@ class ColoredChestKukaEnv(gym.Env):
             self.np_random = np.random.default_rng(seed)
 
         self._build_world()
-
+        
         if options is not None and "target_idx" in options:
             self.target_idx = int(options["target_idx"])
         else:
@@ -463,6 +463,8 @@ class ColoredChestKukaEnv(gym.Env):
 
         self.step_count = 0
         self.consecutive_close_steps = 0
+        self.milestones_hit = set()
+        self.prev_distance = None
         self.prev_target_chest_pos = np.array(
             self._get_chest_top_center(self.chest_ids[self.target_idx]),
             dtype=np.float32,
@@ -549,13 +551,14 @@ class ColoredChestKukaEnv(gym.Env):
         """
         ee_pos = self._get_end_effector_position()
         target_pos = self._get_chest_top_center(self.chest_ids[self.target_idx])
+        delta = (target_pos - ee_pos).astype(np.float32)
 
         target_one_hot = np.zeros(self.num_chests, dtype=np.float32)
         target_one_hot[self.target_idx] = 1.0
 
         progress = np.array([self.step_count / max(1, self.max_steps)], dtype=np.float32)
 
-        return np.concatenate([ee_pos, target_pos, target_one_hot, progress]).astype(np.float32)
+        return np.concatenate([ee_pos, target_pos, delta, target_one_hot, progress]).astype(np.float32)
 
     def _compute_reward_and_success(self):
         """
@@ -571,13 +574,22 @@ class ColoredChestKukaEnv(gym.Env):
             - ``distance`` is the current Euclidean distance to the target
         """
         distance = self._distance_to_target()
-        reward = -distance
+
+        if self.prev_distance is None:
+            delta = 0.0
+        else:
+            delta = self.prev_distance - distance
+    
+
+        self.prev_distance = distance
+        reward = 10.0 * delta 
+        
 
         if self.reward_type == "advanced":
-            shaping_radius = 0.20
-            if distance <= shaping_radius:
-                bonus_scale = 1.0 - (distance / shaping_radius)
-                reward += 10.0 * bonus_scale
+            for threshold, bonus in [(0.30, 0.5), (0.20, 1.0), (0.15, 1.5), (0.12, 2.5), (0.10, 4.0), (0.07, 5.0), (0.06, 8.0)]:
+                if distance < threshold and threshold not in self.milestones_hit:
+                    reward += bonus
+                    self.milestones_hit.add(threshold)
 
             current_target_pos = self._get_chest_top_center(self.chest_ids[self.target_idx])
             chest_move_dist = float(np.linalg.norm(current_target_pos - self.prev_target_chest_pos))
@@ -592,7 +604,7 @@ class ColoredChestKukaEnv(gym.Env):
 
         success = self.consecutive_close_steps >= self.success_hold_steps
         if success:
-            reward += 20.0
+            reward += 100.0
 
         return float(reward), bool(success), float(distance)
 

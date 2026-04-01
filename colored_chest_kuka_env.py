@@ -165,6 +165,7 @@ class ColoredChestKukaEnv(gym.Env):
         chest_scale: float = 0.12,
         use_plane: bool = True,
         seed: Optional[int] = None,
+        observation_space: str = "default",
     ) -> None:
         """
         Initialize the environment and build the initial PyBullet world.
@@ -196,6 +197,10 @@ class ColoredChestKukaEnv(gym.Env):
         seed:
             Optional seed used to initialize the NumPy random generator used for
             chest placement and random target selection.
+        observation_space:
+            "default" or "extended". The "default" observation space contains 10 dimensions as
+            described in the class docstring. The "extended" observation space contains 13 dimensions, 
+            adding the delta between the end-effector and target positions
 
         Raises
         ------
@@ -269,12 +274,20 @@ class ColoredChestKukaEnv(gym.Env):
             dtype=np.float32,
         )
 
-        self.observation_space = spaces.Box(
-            low=-np.inf,
-            high=np.inf,
-            shape=(13,),
-            dtype=np.float32,
-        )
+        if observation_space == "default":
+            self.observation_space = spaces.Box(
+                low=-np.inf,
+                high=np.inf,
+                shape=(10,),
+                dtype=np.float32,
+            )
+        elif observation_space == "extended":
+            self.observation_space = spaces.Box(
+                low=-np.inf,
+                high=np.inf,
+                shape=(13,),
+                dtype=np.float32,
+            )
 
         self._connect()
         self._build_world()
@@ -558,6 +571,9 @@ class ColoredChestKukaEnv(gym.Env):
 
         progress = np.array([self.step_count / max(1, self.max_steps)], dtype=np.float32)
 
+        if self.observation_space.shape[0] == 10:
+            return np.concatenate([ee_pos, target_pos, target_one_hot, progress]).astype(np.float32)
+        
         return np.concatenate([ee_pos, target_pos, delta, target_one_hot, progress]).astype(np.float32)
 
     def _compute_reward_and_success(self):

@@ -1,0 +1,13 @@
+{
+  "algo": "sac",
+  "device": "cpu",
+  "env_id": "ColoredChestKuka-v0",
+  "mean_ep_len": 72.86,
+  "mean_final_distance": 0.032060251869261265,
+  "mean_reward": 128.29388154111803,
+  "model_path": "runs/test_run/20260401_092604_seed42/models/final_model.zip",
+  "run_dir": "runs/test_run/20260401_092604_seed42",
+  "seed": 42,
+  "success_rate": 1.0,
+  "total_timesteps": 100000
+}

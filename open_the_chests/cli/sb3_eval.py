@@ -20,6 +20,13 @@ def _build_parser() -> argparse.ArgumentParser:
     p.add_argument("--run-dir", type=str, default=None)
     p.add_argument("--total-timesteps", type=int, default=None)
 
+    p.add_argument(
+        "--tb-eval-dir",
+        type=str,
+        default=None,
+        help="Diretório para gravar logs TensorBoard da avaliação (default: <run_dir>/tb/eval)",
+    )
+
     p.add_argument("--reward-type", type=str, default=None)
     p.add_argument("--max-steps", type=int, default=None)
     p.add_argument("--observation-space", type=str, choices=["default", "extended"], default="extended")
@@ -70,6 +77,12 @@ def main(argv: list[str] | None = None) -> int:
         env_kwargs=env_kwargs,
     )
 
+    if args.tb_eval_dir is None:
+        tb_eval_dir = run_dir / "tb" / "eval"
+    else:
+        tb_eval_dir = Path(str(args.tb_eval_dir))
+    tb_eval_dir.mkdir(parents=True, exist_ok=True)
+
     metrics = eval_model(
         env_id=str(args.env_id),
         model=model,
@@ -77,6 +90,8 @@ def main(argv: list[str] | None = None) -> int:
         seed=args.seed,
         deterministic=True,
         env_kwargs=env_kwargs,
+        tb_log_dir=tb_eval_dir,
+        tb_run_name="eval",
     )
 
     results = {

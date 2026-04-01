@@ -3,12 +3,11 @@
   "device": "cpu",
   "env_id": "ColoredChestKuka-v0",
   "env_kwargs": {
-    "max_steps": 200,
     "observation_space": "extended"
   },
-  "eval_episodes": 50,
-  "gamma": 0.99,
-  "learning_rate": 0.0003,
+  "episodes": 50,
+  "model_path": "runs/test_run/20260401_092604_seed42/models/final_model.zip",
+  "observation_space": "extended",
   "seed": 42,
   "total_timesteps": 100000
 }

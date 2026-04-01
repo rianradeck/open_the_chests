@@ -46,8 +46,22 @@ def eval_model(
     seed: int | None = None,
     deterministic: bool = True,
     env_kwargs: Mapping[str, Any] | None = None,
+    tb_log_dir: str | Path | None = None,
+    tb_run_name: str = "eval",
 ) -> EvalMetrics:
     seed_everything(seed)
+
+    writer = None
+    if tb_log_dir is not None:
+        try:
+            from torch.utils.tensorboard import SummaryWriter  # type: ignore[import-not-found]
+
+            writer = SummaryWriter(log_dir=str(tb_log_dir))
+        except Exception as e:
+            raise RuntimeError(
+                "Falha ao inicializar TensorBoard SummaryWriter. "
+                "Verifique se `tensorboard` está instalado no seu ambiente (pip install tensorboard)."
+            ) from e
 
     env = get_env(env_id, seed=seed, **(dict(env_kwargs) if env_kwargs else {}))
 
@@ -86,6 +100,14 @@ def eval_model(
             if d is not None:
                 final_distances.append(d)
 
+            if writer is not None:
+                writer.add_scalar(f"{tb_run_name}/episode_reward", float(total_reward), ep)
+                writer.add_scalar(f"{tb_run_name}/episode_len", float(steps), ep)
+                if s is not None:
+                    writer.add_scalar(f"{tb_run_name}/episode_success", 1.0 if s else 0.0, ep)
+                if d is not None:
+                    writer.add_scalar(f"{tb_run_name}/episode_final_distance", float(d), ep)
+
         mean_reward = float(statistics.fmean(episode_returns)) if episode_returns else 0.0
         mean_ep_len = float(statistics.fmean(episode_lens)) if episode_lens else 0.0
 
@@ -101,13 +123,30 @@ def eval_model(
         else:
             mean_final_distance = None
 
-        return EvalMetrics(
+        metrics = EvalMetrics(
             mean_reward=mean_reward,
             success_rate=success_rate,
             mean_final_distance=mean_final_distance,
             mean_ep_len=mean_ep_len,
         )
+        if writer is not None:
+            writer.add_scalar(f"{tb_run_name}/mean_reward", float(metrics.mean_reward), 0)
+            writer.add_scalar(f"{tb_run_name}/mean_ep_len", float(metrics.mean_ep_len), 0)
+            if metrics.success_rate is not None:
+                writer.add_scalar(f"{tb_run_name}/success_rate", float(metrics.success_rate), 0)
+            if metrics.mean_final_distance is not None:
+                writer.add_scalar(
+                    f"{tb_run_name}/mean_final_distance", float(metrics.mean_final_distance), 0
+                )
+            writer.flush()
+
+        return metrics
     finally:
+        if writer is not None:
+            try:
+                writer.close()
+            except Exception:
+                pass
         env.close()
 
 

@@ -54,6 +54,8 @@ def train_sb3(
 
     env = get_env(env_id, seed=seed, **(dict(env_kwargs) if env_kwargs else {}))
 
+    tb_train_dir = run_paths.run_dir / "tb" / "train"
+
     try:
         if algo == "ppo":
             from stable_baselines3 import PPO
@@ -66,7 +68,7 @@ def train_sb3(
                 gamma=gamma,
                 seed=seed,
                 device=device,
-                tensorboard_log=str(run_paths.run_dir / "tb"),
+                tensorboard_log=str(tb_train_dir),
             )
         elif algo == "sac":
             from stable_baselines3 import SAC
@@ -79,12 +81,12 @@ def train_sb3(
                 gamma=gamma,
                 seed=seed,
                 device=device,
-                tensorboard_log=str(run_paths.run_dir / "tb"),
+                tensorboard_log=str(tb_train_dir),
             )
         else:
             raise ValueError(f"algo inválido: {algo}")
 
-        model.learn(total_timesteps=total_timesteps)
+        model.learn(total_timesteps=total_timesteps, tb_log_name=str(algo))
 
         model_path = run_paths.models_dir / "final_model.zip"
         model.save(str(model_path))

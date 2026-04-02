@@ -1,0 +1,1161 @@
+Environment created successfully.
+Observation space: Box(-inf, inf, (10,), float32)
+Action space: Box(-0.05, 0.05, (3,), float32)
+Initial info: {'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0]}
+Step 000 | Action: [[-0.90225023 -0.95214546 -2.2405984 ]]
+obs=[ 0.9440717  -0.2043469   1.2837937   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.00666667], reward=-0.5933074355125427, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5933074355125427, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 001 | Action: [[ 0.5792885   0.77291834 -3.2630637 ]]
+obs=[ 0.9476855  -0.20179869  1.2757356   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.01333333], reward=-0.587325394153595, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.587325394153595, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 002 | Action: [[ 0.03252745 -0.58670104 -2.418196  ]]
+obs=[ 0.9499492  -0.20614047  1.2666291   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.02      ], reward=-0.5780748128890991, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5780748128890991, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 003 | Action: [[-2.9700174  2.6756458 -2.5434644]]
+obs=[ 0.9471467  -0.20395327  1.261993    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.02666667], reward=-0.5738038420677185, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5738038420677185, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 004 | Action: [[-2.1076207   0.34126455 -3.9024727 ]]
+obs=[ 0.9429078  -0.1994892   1.2553729   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.03333334], reward=-0.5681209564208984, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5681209564208984, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 005 | Action: [[ 0.8523932 -1.3828273 -4.662984 ]]
+obs=[ 0.9443341  -0.20133752  1.2429429   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.04      ], reward=-0.5563747882843018, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5563747882843018, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 006 | Action: [[-0.15439326 -2.8944378  -2.6425917 ]]
+obs=[ 0.93965745 -0.20573336  1.2360835   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.04666667], reward=-0.5476259589195251, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5476259589195251, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 007 | Action: [[-0.4054302  -3.295423    0.03359962]]
+obs=[ 0.93523675 -0.2103527   1.2339636   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.05333333], reward=-0.5432777404785156, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5432777404785156, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 008 | Action: [[-2.5365138   0.24567696 -2.4251788 ]]
+obs=[ 0.9302586  -0.20908713  1.2267203   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.06      ], reward=-0.5359161496162415, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5359161496162415, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 009 | Action: [[-1.5058901 -1.630441  -2.1651015]]
+obs=[ 0.9248754  -0.21318725  1.2189195   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.06666667], reward=-0.5263049602508545, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5263049602508545, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 010 | Action: [[-2.726853  -0.8216933 -1.7922406]]
+obs=[ 0.91950023 -0.21776305  1.2111608   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.07333333], reward=-0.5166149139404297, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5166149139404297, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 011 | Action: [[ 0.19020092  1.6795286  -1.2146223 ]]
+obs=[ 0.9205564  -0.21644261  1.1976893   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.08      ], reward=-0.5047207474708557, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5047207474708557, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 012 | Action: [[-4.369494    3.3929384   0.32457638]]
+obs=[ 0.9198815  -0.21196386  1.1907206   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.08666667], reward=-0.49960044026374817, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.49960044026374817, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 013 | Action: [[ 3.0450337  0.6102606 -3.650692 ]]
+obs=[ 0.9221585  -0.20671552  1.179973    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.09333333], reward=-0.49197253584861755, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.49197253584861755, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 014 | Action: [[-2.3963811 -1.4810501 -3.170764 ]]
+obs=[ 0.9174845  -0.20695335  1.1744924   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.1       ], reward=-0.48592379689216614, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.48592379689216614, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 015 | Action: [[-2.103122  -2.1268857 -1.9240704]]
+obs=[ 0.91196823 -0.21127063  1.1669093   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.10666667], reward=-0.4763834476470947, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4763834476470947, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 016 | Action: [[ 0.44063127 -1.5715433  -1.8564087 ]]
+obs=[ 0.91354007 -0.2166139   1.1540645   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.11333334], reward=-0.46306124329566956, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.46306124329566956, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 017 | Action: [[-1.8381035   0.70731413 -1.5252582 ]]
+obs=[ 0.9081432  -0.21723649  1.1464881   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.12      ], reward=-0.4548390507698059, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4548390507698059, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 018 | Action: [[-0.4863878  -0.52032036 -0.7480271 ]]
+obs=[ 0.9026304  -0.22163367  1.1389462   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.12666667], reward=-0.4453355073928833, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4453355073928833, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 019 | Action: [[ 1.5862635   0.12697908 -2.5994136 ]]
+obs=[ 0.9044455  -0.22076693  1.1262184   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.13333334], reward=-0.434337854385376, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.434337854385376, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 020 | Action: [[-0.13027644  3.0326924  -1.3707048 ]]
+obs=[ 0.89909923 -0.2163732   1.1183494   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.14      ], reward=-0.42778411507606506, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.42778411507606506, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 021 | Action: [[-3.1164372 -1.4030305 -4.5609956]]
+obs=[ 0.89343953 -0.21659878  1.1108259   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.14666666], reward=-0.4198549687862396, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4198549687862396, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 022 | Action: [[-0.68570864  1.4353677  -3.313937  ]]
+obs=[ 0.8879375  -0.21233305  1.1032698   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.15333334], reward=-0.4137568473815918, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4137568473815918, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 023 | Action: [[-3.1808603 -3.1381724 -4.4739385]]
+obs=[ 0.88234824 -0.21252188  1.0957404   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.16      ], reward=-0.40600699186325073, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.40600699186325073, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 024 | Action: [[-2.473346    3.7421117   0.04251599]]
+obs=[ 0.87667245 -0.20838338  1.0926131   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.16666667], reward=-0.4040699601173401, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4040699601173401, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 025 | Action: [[-1.0004245 -0.3078133 -2.3092172]]
+obs=[ 0.8711356  -0.20854057  1.0850679   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.17333333], reward=-0.39649608731269836, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.39649608731269836, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 026 | Action: [[ 0.54135406 -0.81542087  3.0030475 ]]
+obs=[ 0.8727997  -0.21263434  1.0756139   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.18      ], reward=-0.38651126623153687, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.38651126623153687, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 027 | Action: [[-1.9375631  1.2183712 -0.8832017]]
+obs=[ 0.86740243 -0.21267588  1.068049    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.18666667], reward=-0.3790334165096283, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3790334165096283, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 028 | Action: [[-0.40403265  0.3143479  -3.4275308 ]]
+obs=[ 0.86195415 -0.20884243  1.0604842   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.19333333], reward=-0.3733658492565155, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3733658492565155, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 029 | Action: [[ 0.00595754  1.3986809  -4.75059   ]]
+obs=[ 0.8612712  -0.20389083  1.0514208   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.2       ], reward=-0.36760231852531433, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.36760231852531433, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 030 | Action: [[-1.5058589 -1.7337611 -3.6288047]]
+obs=[ 0.85580516 -0.20296182  1.0438793   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.20666666], reward=-0.36089351773262024, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.36089351773262024, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 031 | Action: [[ 0.15044391  0.01089159 -1.3517057 ]]
+obs=[ 0.85828596 -0.20181106  1.0323952   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.21333334], reward=-0.35178515315055847, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.35178515315055847, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 032 | Action: [[ 1.5676668  1.6322639 -2.163101 ]]
+obs=[ 0.861538   -0.19694966  1.0229188   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.22      ], reward=-0.34655654430389404, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.34655654430389404, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 033 | Action: [[-3.4036412  -0.49572617 -0.3005576 ]]
+obs=[ 0.85697794 -0.1959535   1.0168409   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.22666667], reward=-0.34144073724746704, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.34144073724746704, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 034 | Action: [[-0.08057082 -0.26054958 -2.4197147 ]]
+obs=[ 0.85160995 -0.1986094   1.0093238   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.23333333], reward=-0.33316999673843384, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.33316999673843384, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 035 | Action: [[-1.7834785  0.2987514 -4.0300794]]
+obs=[ 0.8462493  -0.19758333  1.0018117   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.24      ], reward=-0.3269888162612915, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3269888162612915, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 036 | Action: [[-2.2680292  0.4963386 -0.9653034]]
+obs=[ 0.8409458  -0.19306068  0.9943005   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.24666667], reward=-0.3229454755783081, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3229454755783081, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 037 | Action: [[-2.20653   -2.3011045 -2.593008 ]]
+obs=[ 0.8357156  -0.19210368  0.98678094  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.25333333], reward=-0.3170792758464813, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3170792758464813, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 038 | Action: [[ 0.232436   -0.68286175 -1.7378037 ]]
+obs=[ 0.8384878  -0.19455573  0.9760697   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.26      ], reward=-0.30715471506118774, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.30715471506118774, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 039 | Action: [[-1.3858631   1.300578   -0.96544194]]
+obs=[ 0.833563   -0.19358213  0.9682119   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.26666668], reward=-0.30122992396354675, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.30122992396354675, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 040 | Action: [[ 0.3989418 -1.0703244 -1.9042768]]
+obs=[ 0.83663946 -0.19595136  0.957428    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.27333334], reward=-0.29145199060440063, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.29145199060440063, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 041 | Action: [[-2.70721   -3.0379536 -4.6199455]]
+obs=[ 0.83200526 -0.20055608  0.94938874  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.28      ], reward=-0.28208231925964355, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.28208231925964355, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 042 | Action: [[-0.46015018 -2.226596   -3.1301284 ]]
+obs=[ 0.8268037  -0.20517007  0.9419034   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.28666666], reward=-0.2731933295726776, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2731933295726776, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 043 | Action: [[-2.3794365  1.0350153 -2.7979164]]
+obs=[ 0.8216712  -0.20652051  0.934413    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.29333332], reward=-0.2664785385131836, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2664785385131836, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 044 | Action: [[ 1.4748983 -2.3515487 -2.4264534]]
+obs=[ 0.8247419  -0.21076074  0.9243941   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.3       ], reward=-0.2561291456222534, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2561291456222534, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 045 | Action: [[ 0.3321762  -1.5478793   0.21145797]]
+obs=[ 0.82958776 -0.21610546  0.916946    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.30666667], reward=-0.24713627994060516, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.24713627994060516, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 046 | Action: [[ 1.6845638 -1.566544  -1.7801013]]
+obs=[ 0.833115   -0.22149888  0.9084837   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.31333333], reward=-0.23738449811935425, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.23738449811935425, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 047 | Action: [[-1.6401623  -2.3409996   0.24775577]]
+obs=[ 0.83365995 -0.22588365  0.90528286  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.32      ], reward=-0.2321312129497528, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2321312129497528, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 048 | Action: [[ 0.6885892 -1.0766598 -3.9090145]]
+obs=[ 0.8372049  -0.23130317  0.89680445  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.32666665], reward=-0.22243911027908325, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.22243911027908325, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 049 | Action: [[ 2.285137   -2.9714081  -0.53552353]]
+obs=[ 0.84079224 -0.23673645  0.8883262   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.33333334], reward=-0.21283558011054993, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.21283558011054993, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 050 | Action: [[-2.033144   -0.96243334  0.7817128 ]]
+obs=[ 0.8411768  -0.24097256  0.88494474  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.34      ], reward=-0.20756034553050995, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.20756034553050995, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 051 | Action: [[-0.37431657 -0.22711998 -4.2431726 ]]
+obs=[ 0.83554137 -0.24563028  0.88060087  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.34666666], reward=-0.20074626803398132, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.20074626803398132, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 052 | Action: [[-4.7505364 -0.8561671 -5.3631506]]
+obs=[ 0.83032495 -0.25026155  0.87370765  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.35333332], reward=0.19826635718345642, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19219085574150085, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 053 | Action: [[-0.7740853  -0.54584545 -2.1926372 ]]
+obs=[ 0.82523775 -0.25488758  0.8663026   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.36      ], reward=0.6472715437412262, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18338683247566223, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 054 | Action: [[-1.3788975  -1.6170903  -0.40761828]]
+obs=[ 0.82020193 -0.259514    0.85890275  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.36666667], reward=1.0889096856117249, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17472726106643677, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 055 | Action: [[-2.1030421  -0.58063114 -1.9581563 ]]
+obs=[ 0.8152194  -0.26413962  0.85150826  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.37333333], reward=1.5222574323415756, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.166230246424675, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 056 | Action: [[ 3.6686258 -1.2642757 -3.8260083]]
+obs=[ 0.8186562  -0.26968014  0.8426478   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.38      ], reward=2.04816897213459, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.15591825544834137, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 057 | Action: [[-0.18683034 -3.0529647  -4.6777163 ]]
+obs=[ 0.8140438  -0.27426398  0.83506167  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.38666666], reward=2.482577621936798, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.14740043878555298, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 058 | Action: [[ 0.4531584 -1.1342682 -3.576787 ]]
+obs=[ 0.8178951  -0.27977803  0.8262142   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.39333335], reward=3.006102129817009, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13713525235652924, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 059 | Action: [[-1.9298297 -3.1841981 -0.7766068]]
+obs=[ 0.8136359  -0.2843077   0.8184584   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.4       ], reward=3.439667224884033, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12863397598266602, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 060 | Action: [[-0.6775291 -1.4035976 -1.4189509]]
+obs=[ 0.8088227  -0.28891778  0.81111115  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.40666667], reward=3.8484055921435356, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12061949819326401, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 061 | Action: [[-1.6541079  0.7905705 -2.248444 ]]
+obs=[ 0.80483514 -0.29071677  0.80364877  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.41333333], reward=4.143851138651371, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11482644826173782, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 062 | Action: [[-1.943811    0.27180994 -3.5489054 ]]
+obs=[ 0.8004967  -0.28982347  0.7961934   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.42      ], reward=4.3094169944524765, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11158005893230438, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 063 | Action: [[-2.3192682  0.2592591 -4.5470695]]
+obs=[ 0.7958174  -0.28629375  0.7887481   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.42666668], reward=4.330741070210934, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11116193979978561, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 064 | Action: [[-2.997405  -1.83235   -3.9574249]]
+obs=[ 0.7904488  -0.28543285  0.7814309   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.43333334], reward=4.413537487387657, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1095384806394577, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 065 | Action: [[ 0.49649784  0.26700437 -2.776442  ]]
+obs=[ 0.7930437  -0.28092834  0.7732105   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.44      ], reward=4.431254036724567, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10919109731912613, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 066 | Action: [[-0.00628391 -2.2902317  -2.2137582 ]]
+obs=[ 0.79134166 -0.27954558  0.765498    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.44666666], reward=4.488282136619091, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10807289928197861, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 067 | Action: [[ 1.1039064 -1.0016917 -1.2638352]]
+obs=[ 0.7945672  -0.28007165  0.75707287  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.45333335], reward=4.681715697050095, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10428008437156677, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 068 | Action: [[-1.232656  -1.1632164 -2.8997154]]
+obs=[ 0.7903363  -0.28429893  0.7496233   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.46      ], reward=4.9114053919911385, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09977636486291885, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 069 | Action: [[-2.01388   -3.0815573 -6.077963 ]]
+obs=[ 0.7859316  -0.2888641   0.74236685  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.46666667], reward=5.114781498908997, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09578859806060791, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 070 | Action: [[ 2.0951657 -3.7784789 -4.1476507]]
+obs=[ 0.78596765 -0.28907093  0.7426022   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.47333333], reward=5.123627424240112, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09561514854431152, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 071 | Action: [[-0.86106086 -1.4246941  -3.6569557 ]]
+obs=[ 0.7789148  -0.29373786  0.74321127  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.48      ], reward=5.192273400723934, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09426914900541306, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 072 | Action: [[-0.8416243 -0.4086243  1.2150123]]
+obs=[ 0.77482384 -0.29827392  0.7451232   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.48666668], reward=5.2825755551457405, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09249851852655411, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 073 | Action: [[-0.36389935 -2.703222   -7.1184807 ]]
+obs=[ 0.7681596  -0.30322766  0.7455182   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.49333334], reward=5.310043901205063, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09195992350578308, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 074 | Action: [[ 1.4972602   0.18681538 -0.81193197]]
+obs=[ 0.7682522  -0.30343315  0.74594     0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.5       ], reward=5.317486181855202, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09181399643421173, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 075 | Action: [[-1.7453055  -0.19840187 -3.7613163 ]]
+obs=[ 0.76153564 -0.3072673   0.7465846   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.50666666], reward=5.259440116584301, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09295215457677841, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 076 | Action: [[ 2.3382463   0.00943041 -1.7771981 ]]
+obs=[ 0.7617029  -0.30720484  0.7469057   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.5133333 ], reward=5.259454935789108, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09295186400413513, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 077 | Action: [[ 2.6458178 -1.2445717 -3.406488 ]]
+obs=[ 0.7622043  -0.30814743  0.7471521   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.52      ], reward=5.309524849057198, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09197010099887848, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 078 | Action: [[-2.5144272  1.371491  -1.3081613]]
+obs=[ 0.75634104 -0.3079262   0.7473415   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.52666664], reward=5.105666548013687, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09596732258796692, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 079 | Action: [[-0.13637689 -2.6322827  -2.653231  ]]
+obs=[ 0.74981475 -0.3100151   0.7475649   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.53333336], reward=4.949476309120655, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09902987629175186, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 080 | Action: [[ 2.0025671e-03  5.2155089e-01 -2.6960359e+00]]
+obs=[ 0.748043   -0.3097651   0.7477177   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.54      ], reward=4.874944448471069, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10049128532409668, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 081 | Action: [[-1.7163227  2.1992643 -5.06288  ]]
+obs=[ 0.74224293 -0.30793923  0.7478036   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.5466667 ], reward=4.5972937270998955, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10593541711568832, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 082 | Action: [[-2.4484313  2.1055183 -4.888871 ]]
+obs=[ 0.7363034  -0.30442256  0.74782413  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.55333334], reward=4.255922324955463, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11262897402048111, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 083 | Action: [[ 0.5680842 -2.1500602 -3.379633 ]]
+obs=[ 0.73632777 -0.30395162  0.747927    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.56      ], reward=4.240408897399902, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11293315887451172, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 084 | Action: [[ 0.1446747 -0.6698444 -3.3369107]]
+obs=[ 0.7370577  -0.30442446  0.7480689   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.56666666], reward=4.282570295035839, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11210646480321884, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 085 | Action: [[-2.0312576  -0.21669155 -4.36604   ]]
+obs=[ 0.7312775  -0.3085278   0.7485285   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.5733333 ], reward=4.185971118509769, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11400056630373001, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 086 | Action: [[-1.4903464  -1.274564    0.57565594]]
+obs=[ 0.7280312  -0.31293163  0.75047755  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.58      ], reward=4.169039987027645, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11433254927396774, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 087 | Action: [[-1.9954613  -1.8709441   0.82885265]]
+obs=[ 0.7248172  -0.3173224   0.75244117  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.58666664], reward=4.138048090040684, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11494023352861404, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 088 | Action: [[ 5.0805945 -1.7858053 -3.9825015]]
+obs=[ 0.726428   -0.32319802  0.74988395  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.5933333 ], reward=4.383932895958424, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11011896282434464, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 089 | Action: [[-0.43678153  0.09069502 -1.7939363 ]]
+obs=[ 0.7232541  -0.32769     0.74685085  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.6       ], reward=4.377862721681595, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1102379858493805, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 090 | Action: [[ 2.7057512  2.038281  -3.2670035]]
+obs=[ 0.7259116  -0.32848522  0.73993623  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.6066667 ], reward=4.559310205280781, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10668019205331802, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 091 | Action: [[-1.2111421   0.85916024 -2.5668375 ]]
+obs=[ 0.7217304  -0.32815328  0.7373494   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.61333334], reward=4.372827991843224, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11033670604228973, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 092 | Action: [[-2.3012066 -1.3288246 -1.8283324]]
+obs=[ 0.7170701  -0.33008945  0.7343481   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.62      ], reward=4.209538213908672, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1135384663939476, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 093 | Action: [[-0.73940337  0.7174567  -2.646678  ]]
+obs=[ 0.7136162  -0.32936177  0.72990865  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.62666667], reward=4.038099013268948, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1169000193476677, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 094 | Action: [[-0.4896908 -2.1646328 -4.003764 ]]
+obs=[ 0.71028984 -0.33091238  0.7234302   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.6333333 ], reward=3.9051620066165924, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11950662732124329, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 095 | Action: [[ 1.0447713  -0.28256863 -3.6708064 ]]
+obs=[ 0.7087757  -0.3337953   0.71930444  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.64      ], reward=3.87406637519598, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12011634558439255, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 096 | Action: [[ 0.33873296 -1.9787097   0.7404156 ]]
+obs=[ 0.7088014  -0.3346266   0.71919173  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.64666665], reward=3.8900559172034264, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11980282515287399, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 097 | Action: [[ 1.4997219 -3.5103674 -2.8468955]]
+obs=[ 0.70867735 -0.33617315  0.71924365  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.6533333 ], reward=3.9121490716934204, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11936962604522705, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 098 | Action: [[-0.06518579 -0.955968   -3.885367  ]]
+obs=[ 0.7039941  -0.34081647  0.7191579   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.66      ], reward=3.7631510868668556, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12229115515947342, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 099 | Action: [[ 0.06529254 -0.6709464   0.68321633]]
+obs=[ 0.70898116 -0.3457127   0.71785843  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.6666667 ], reward=4.070765480399132, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11625950038433075, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 100 | Action: [[-3.2898972 -1.0660373  2.946712 ]]
+obs=[ 0.7063454  -0.34995484  0.7199018   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.67333335], reward=4.006164386868477, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11752618849277496, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 101 | Action: [[-0.67036647 -2.5910623  -0.26653588]]
+obs=[ 0.7016931  -0.35459244  0.7200943   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.68      ], reward=3.825952596962452, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12105975300073624, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 102 | Action: [[ 0.29686436  2.2442236  -1.3023678 ]]
+obs=[ 0.7019466  -0.35576335  0.715676    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.68666667], reward=3.827036678791046, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12103849649429321, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 103 | Action: [[-1.5557188  -1.9933243  -0.39747345]]
+obs=[ 0.6991859  -0.3599535   0.7109029   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.6933333 ], reward=3.690452627837658, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12371661514043808, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 104 | Action: [[-2.317051    0.27432957 -2.0667863 ]]
+obs=[ 0.69794136 -0.36148655  0.70384556  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.7       ], reward=3.573907181620598, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12600181996822357, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 105 | Action: [[ 1.1575441 -0.3352216  1.2626996]]
+obs=[ 0.70438945 -0.3633629   0.69627243  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.70666665], reward=3.8083937391638756, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12140404433012009, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 106 | Action: [[0.4002264  1.922785   0.18012297]]
+obs=[ 0.7047152  -0.36339697  0.6963041   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.7133333 ], reward=3.824884854257107, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12108068913221359, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 107 | Action: [[ 1.3017277   0.01959568 -2.161023  ]]
+obs=[ 0.7043263  -0.36266968  0.69651973  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.72      ], reward=3.8046034425497055, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1214783638715744, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 108 | Action: [[ 0.35954916  0.1650683  -4.0189366 ]]
+obs=[ 0.7039444  -0.3604221   0.69659567  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.7266667 ], reward=3.772126965224743, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12211515754461288, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 109 | Action: [[-0.04510209 -2.15651     0.40998876]]
+obs=[ 0.70086503 -0.36111584  0.69884545  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.73333335], reward=3.6569232270121574, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12437405437231064, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 110 | Action: [[ 1.1372807 -2.4621506 -1.7130139]]
+obs=[ 0.70198256 -0.3631289   0.6969834   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.74      ], reward=3.6996473744511604, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12353632599115372, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 111 | Action: [[-0.8157021   0.22726977 -2.2055693 ]]
+obs=[ 0.698942   -0.36393088  0.6945066   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.74666667], reward=3.5215072333812714, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12702926993370056, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 112 | Action: [[3.3784423  1.4624422  0.45576227]]
+obs=[ 0.70421135 -0.3603444   0.69086856  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.75333333], reward=3.6982057318091393, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12356459349393845, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 113 | Action: [[ 0.6660257  -1.4149777   0.13541985]]
+obs=[ 0.70456994 -0.35947183  0.6923101   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.76      ], reward=3.73195818066597, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1229027807712555, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 114 | Action: [[ 5.85487    1.211726  -2.0068681]]
+obs=[ 0.704191   -0.35733703  0.6929542   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.76666665], reward=3.706902325153351, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12339407205581665, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 115 | Action: [[-1.6652392   0.97946423  0.7677912 ]]
+obs=[ 0.7010272  -0.3535203   0.6951534   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.7733333 ], reward=3.5529763847589493, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12641222774982452, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 116 | Action: [[ 0.5186082  1.7258643 -1.4874613]]
+obs=[ 0.7022381  -0.34900784  0.69304407  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.78      ], reward=3.5326497554779053, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12681078910827637, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 117 | Action: [[-2.744774  -2.0067897 -1.8130293]]
+obs=[ 0.6974397  -0.34810448  0.6913916   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.7866667 ], reward=3.270169720053673, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13195745646953583, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 118 | Action: [[ 1.0444028   0.95306253 -1.8681394 ]]
+obs=[ 0.69848317 -0.34367922  0.68564725  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.79333335], reward=3.1740371584892273, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13384240865707397, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 119 | Action: [[ 0.01590174  0.64479244 -0.44244033]]
+obs=[ 0.6997802  -0.33858728  0.67903155  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.8       ], reward=3.0444337129592896, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13638365268707275, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 120 | Action: [[-2.2754283  2.339452   2.5399885]]
+obs=[ 0.6986956  -0.3331655   0.67543274  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.8066667 ], reward=2.8429647237062454, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.14033402502536774, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 121 | Action: [[ 1.739622  -1.4032823  1.9037707]]
+obs=[ 0.7000402  -0.33073205  0.6749761   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.81333333], reward=2.852645844221115, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1401441991329193, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 122 | Action: [[3.93882    3.6336367  0.17733592]]
+obs=[ 0.7006453  -0.32726833  0.6780189   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.82      ], reward=2.877220645546913, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13966234028339386, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 123 | Action: [[ 0.96656656  1.432791   -2.7924867 ]]
+obs=[ 0.70064986 -0.32282087  0.68019354  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.82666665], reward=2.832828387618065, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.14053277671337128, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 124 | Action: [[ 0.77611774  0.7831959  -2.2080226 ]]
+obs=[ 0.7005981  -0.31832823  0.68186724  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.8333333 ], reward=2.767859473824501, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1418066769838333, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 125 | Action: [[-0.5913964  3.878307  -1.4547118]]
+obs=[ 0.6951865  -0.3137346   0.6834044   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.84      ], reward=2.4610867351293564, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1478218287229538, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 126 | Action: [[-1.5908575  0.5095189  0.2345218]]
+obs=[ 0.692236   -0.3087856   0.6856252   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.8466667 ], reward=2.256934329867363, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.15182481706142426, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 127 | Action: [[-1.3116279   0.74570704 -1.5441406 ]]
+obs=[ 0.6878137  -0.30408737  0.68588644  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.85333335], reward=1.9610510468482971, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1576264500617981, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 128 | Action: [[ 1.2057896  1.0611984 -2.3595452]]
+obs=[ 0.68961346 -0.29918876  0.68169665  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.86      ], reward=1.8554554730653763, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.15969695150852203, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 129 | Action: [[ 1.0065166  1.9717803 -1.3257792]]
+obs=[ 0.69319224 -0.2940353   0.67492294  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.8666667 ], reward=1.7582969665527344, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16160202026367188, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 130 | Action: [[ 0.21140808 -0.10283104  2.5669436 ]]
+obs=[ 0.6982718  -0.2909079   0.6699612   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.87333333], reward=1.7837791591882706, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16110236942768097, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 131 | Action: [[ 0.6098554  1.8307487 -1.6265442]]
+obs=[ 0.70179385 -0.28584075  0.66433823  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.88      ], reward=1.6637945175170898, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16345500946044922, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 132 | Action: [[ 2.202934    0.7591796  -0.60184926]]
+obs=[ 0.7029702  -0.28091392  0.661031    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.88666666], reward=1.494633674621582, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16677188873291016, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 133 | Action: [[-0.92695343  0.67949903 -0.26344457]]
+obs=[ 0.70010155 -0.27603683  0.6577082   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.8933333 ], reward=1.1770847141742706, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1729983389377594, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 134 | Action: [[-2.3863096   1.0038614   0.18325323]]
+obs=[ 0.6984174  -0.27104822  0.65605253  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.9       ], reward=0.9319355487823486, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17780518531799316, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 135 | Action: [[ 0.9345027  0.7742288 -0.746614 ]]
+obs=[ 0.70182806 -0.26583874  0.6518108   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.9066667 ], reward=0.7949377000331879, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18049141764640808, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 136 | Action: [[ 3.2128973  1.8597195 -1.2318429]]
+obs=[ 0.7052481  -0.26061633  0.6479994   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.91333336], reward=0.6538748294115067, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1832573562860489, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 137 | Action: [[ 3.1462724  4.301217  -1.4979103]]
+obs=[ 0.7060826  -0.25557277  0.6471429   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.92      ], reward=0.49461549520492554, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18638008832931519, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 138 | Action: [[ 3.0216074  2.412569  -1.6454971]]
+obs=[ 0.70685554 -0.25050175  0.64708763  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.9266667 ], reward=0.34590743482112885, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1892959326505661, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 139 | Action: [[-1.3685625   2.189274   -0.18633044]]
+obs=[ 0.7033069  -0.24575764  0.6463748   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.93333334], reward=0.058844998478889465, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19492460787296295, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 140 | Action: [[3.3778975 0.6164786 0.9597276]]
+obs=[ 0.7075513  -0.24045023  0.6453186   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.94      ], reward=-0.02324959635734558, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19653430581092834, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 141 | Action: [[1.0322038  0.23881426 2.2766988 ]]
+obs=[ 0.7109254  -0.2351759   0.6462515   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.94666666], reward=-0.09662213921546936, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19797298312187195, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 142 | Action: [[-0.17096114 -0.52341926  0.3846237 ]]
+obs=[ 0.70720726 -0.23245427  0.6485471   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.9533333 ], reward=-0.20105253159999847, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.20105253159999847, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 143 | Action: [[ 2.0402007  -0.46691763  3.1696596 ]]
+obs=[ 0.7101423  -0.23167077  0.6501508   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.96      ], reward=-0.16639703512191772, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19934111833572388, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 144 | Action: [[-0.605732   -0.57935834  0.7676898 ]]
+obs=[ 0.7066444  -0.23353706  0.652434    0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.96666664], reward=-0.151258647441864, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19904428720474243, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 145 | Action: [[-0.5240488 -4.773464  -2.546239 ]]
+obs=[ 0.7026229  -0.23770882  0.6526151   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.97333336], reward=-0.1150154322385788, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19833363592624664, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 146 | Action: [[1.0420219 1.3951075 1.2816246]]
+obs=[ 0.70684624 -0.23920314  0.65225255  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.98      ], reward=0.05800068378448486, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19494116306304932, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 147 | Action: [[-2.865508    0.35444587 -4.481443  ]]
+obs=[ 0.7031139  -0.23888588  0.6518896   0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.9866667 ], reward=-0.07249647378921509, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19749993085861206, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 148 | Action: [[ 3.2525916 -1.7293813  0.5784904]]
+obs=[ 0.7070651  -0.24023847  0.65123886  0.82015806 -0.37747034  0.73
+  0.          0.          1.          0.99333334], reward=0.08106696605682373, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19448888301849365, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Step 149 | Action: [[ 1.4546597 -0.7152613  1.2632757]]
+obs=[ 0.71028715 -0.24389358  0.6525741   0.82015806 -0.37747034  0.73
+  0.          0.          1.          1.        ], reward=0.3356495052576065, terminated=False, truncated=True, info={'is_success': False, 'distance_to_target': 0.18949706852436066, 'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0], 'consecutive_close_steps': 0}
+Episode finished early.
+Environment created successfully.
+Observation space: Box(-inf, inf, (10,), float32)
+Action space: Box(-0.05, 0.05, (3,), float32)
+Initial info: {'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0]}
+Step 000 | Action: [[-2.4233522  -0.72269315 -4.4548163 ]]
+obs=[ 0.9440717  -0.2043469   1.2837937   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.00666667], reward=-0.6593440771102905, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6593440771102905, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 001 | Action: [[-2.8501995 -2.0202515  0.9464531]]
+obs=[ 0.9429924  -0.20898606  1.2819209   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.01333333], reward=-0.6552688479423523, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6552688479423523, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 002 | Action: [[ 1.1317601  2.2725575 -5.315479 ]]
+obs=[ 0.94692016 -0.20668022  1.272884    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.02      ], reward=-0.6497847437858582, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6497847437858582, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 003 | Action: [[-3.9482176  2.0706239 -3.9689562]]
+obs=[ 0.9451177  -0.2021868   1.2695943   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.02666667], reward=-0.6487929224967957, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6487929224967957, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 004 | Action: [[-4.220813  -1.0843444 -1.6881077]]
+obs=[ 0.9418235  -0.20415674  1.2643132   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.03333334], reward=-0.6425996422767639, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6425996422767639, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 005 | Action: [[ 0.29424804  2.5276754  -2.1797063 ]]
+obs=[ 0.94411385 -0.1996253   1.2532679   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.04      ], reward=-0.6363205909729004, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6363205909729004, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 006 | Action: [[ 0.16290724 -0.31630802 -2.3126783 ]]
+obs=[ 0.9474338  -0.20152193  1.2440269   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.04666667], reward=-0.6286360621452332, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6286360621452332, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 007 | Action: [[-0.90962803 -0.614387   -3.1076074 ]]
+obs=[ 0.9446483  -0.20590697  1.2403661   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.05333333], reward=-0.6226681470870972, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6226681470870972, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 008 | Action: [[-2.8003252   1.4824648  -0.54131436]]
+obs=[ 0.94055897 -0.20431623  1.2346506   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.06      ], reward=-0.6177466511726379, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6177466511726379, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 009 | Action: [[ 0.55229723  0.03332099 -2.5985193 ]]
+obs=[ 0.94256264 -0.2009018   1.2231886   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.06666667], reward=-0.6107403635978699, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6107403635978699, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 010 | Action: [[ 0.88431406  3.402203   -3.7169766 ]]
+obs=[ 0.9455479  -0.1957032   1.2137088   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.07333333], reward=-0.606704592704773, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.606704592704773, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 011 | Action: [[-3.8300223 -0.9980769 -3.1236854]]
+obs=[ 0.94198596 -0.19646937  1.209582    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.08      ], reward=-0.6020462512969971, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.6020462512969971, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 012 | Action: [[ 0.05628234 -0.25935155  1.7144253 ]]
+obs=[ 0.94343436 -0.20140272  1.2043864   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.08666667], reward=-0.5956253409385681, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5956253409385681, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 013 | Action: [[ 1.2101626 -2.0032437 -3.5712404]]
+obs=[ 0.947119   -0.20671368  1.1964266   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.09333333], reward=-0.5874483585357666, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5874483585357666, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 014 | Action: [[-0.27180815 -0.95627075 -3.7221894 ]]
+obs=[ 0.94410557 -0.2113372   1.1938813   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.1       ], reward=-0.5820947885513306, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5820947885513306, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 015 | Action: [[ 0.21119207  0.16259772 -2.92066   ]]
+obs=[ 0.9477427  -0.20994782  1.1857364   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.10666667], reward=-0.5774141550064087, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5774141550064087, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 016 | Action: [[-4.8212786 -1.0976052 -2.0235562]]
+obs=[ 0.9445081  -0.2140086   1.1830668   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.11333334], reward=-0.5721796751022339, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5721796751022339, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 017 | Action: [[-0.7740064 -1.6166623 -1.6041316]]
+obs=[ 0.9402658  -0.21851872  1.1783239   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.12      ], reward=-0.5647851824760437, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5647851824760437, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 018 | Action: [[-0.48714623 -0.1745801  -2.184114  ]]
+obs=[ 0.93503165 -0.22309326  1.1714708   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.12666667], reward=-0.555414617061615, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.555414617061615, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 019 | Action: [[-0.0274415   0.94711894 -0.8810158 ]]
+obs=[ 0.9316601  -0.22211969  1.163683    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.13333334], reward=-0.5488471388816833, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5488471388816833, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 020 | Action: [[ 0.5074675  0.555948  -2.4417484]]
+obs=[ 0.9338406  -0.21715067  1.1522834   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.14      ], reward=-0.5432783365249634, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5432783365249634, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 021 | Action: [[ 1.5484039 -1.9519668 -3.5068064]]
+obs=[ 0.93678105 -0.21756694  1.1431328   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.14666666], reward=-0.5368008613586426, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5368008613586426, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 022 | Action: [[-3.9982488 -2.3700051 -1.2728006]]
+obs=[ 0.9326474  -0.2218412   1.138922    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.15333334], reward=-0.5299378633499146, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5299378633499146, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 023 | Action: [[ 1.6746788 -2.4757714 -3.794279 ]]
+obs=[ 0.93581384 -0.22715063  1.1296892   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.16      ], reward=-0.5207318067550659, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5207318067550659, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 024 | Action: [[-1.1361105  2.050177  -4.447836 ]]
+obs=[ 0.93154687 -0.22774664  1.1251508   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.16666667], reward=-0.5156599283218384, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5156599283218384, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 025 | Action: [[ 0.12225419 -3.9587278  -0.08598351]]
+obs=[ 0.93474114 -0.23286358  1.1158895   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.17333333], reward=-0.5065973997116089, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5065973997116089, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 026 | Action: [[-0.7680677  0.7439919 -3.8153229]]
+obs=[ 0.9304167  -0.23347609  1.11111     0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.18      ], reward=-0.5013134479522705, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5013134479522705, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 027 | Action: [[-2.7678065  2.5010805 -0.6913421]]
+obs=[ 0.9250129  -0.22933972  1.1041715   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.18666667], reward=-0.4969019591808319, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4969019591808319, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 028 | Action: [[-4.0419574 -0.8919797 -1.9754455]]
+obs=[ 0.91923624 -0.23018889  1.0967379   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.19333333], reward=-0.48916634917259216, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.48916634917259216, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 029 | Action: [[-2.418307  -0.2339735 -4.821282 ]]
+obs=[ 0.9137143  -0.23462106  1.089304    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.2       ], reward=-0.47939586639404297, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.47939586639404297, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 030 | Action: [[-1.7537181 -4.178913  -7.1909842]]
+obs=[ 0.90822154 -0.23919368  1.0818715   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.20666666], reward=-0.469570517539978, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.469570517539978, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 031 | Action: [[-1.3603381 -3.4932108 -1.1262556]]
+obs=[ 0.9027505  -0.24377853  1.074441    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.21333334], reward=-0.45976611971855164, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.45976611971855164, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 032 | Action: [[-0.14511126 -0.544456   -3.0281427 ]]
+obs=[ 0.8973016  -0.24837165  1.0670122   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.22      ], reward=-0.4499860405921936, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4499860405921936, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 033 | Action: [[-2.4785903 -1.714885  -2.1784809]]
+obs=[ 0.891876   -0.25297254  1.0595845   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.22666667], reward=-0.44023123383522034, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.44023123383522034, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 034 | Action: [[ 2.4278479  0.2476654 -2.103565 ]]
+obs=[ 0.8936233  -0.2523364   1.0481238   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.23333333], reward=-0.4325650632381439, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4325650632381439, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 035 | Action: [[-0.60166454  0.5633021  -2.8628774 ]]
+obs=[ 0.8881836  -0.24844678  1.0406041   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.24      ], reward=-0.4281586706638336, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4281586706638336, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 036 | Action: [[-2.4194524  0.6553133 -3.038002 ]]
+obs=[ 0.8827076  -0.24392328  1.0330884   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.24666667], reward=-0.4243566393852234, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4243566393852234, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 037 | Action: [[ 2.2199645 -3.3467698 -2.8658102]]
+obs=[ 0.8853017  -0.24284205  1.0219929   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.25333333], reward=-0.41786542534828186, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.41786542534828186, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 038 | Action: [[-1.6793603  -1.5954173   0.64913034]]
+obs=[ 0.88618255 -0.2458345   1.0170158   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.26      ], reward=-0.4126059114933014, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4126059114933014, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 039 | Action: [[-2.124911   1.6481847 -1.3256094]]
+obs=[ 0.8811947  -0.2453105   1.0113121   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.26666668], reward=-0.4077698290348053, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4077698290348053, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 040 | Action: [[ 1.6489148  1.1160746 -3.115469 ]]
+obs=[ 0.88378555 -0.24025074  1.0022337   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.27333334], reward=-0.4057230055332184, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4057230055332184, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 041 | Action: [[ 0.1106025 -1.2193028 -2.1050587]]
+obs=[ 0.8868245  -0.23914652  0.9939503   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.28      ], reward=-0.40177762508392334, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.40177762508392334, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 042 | Action: [[-1.5341275  1.8532605 -1.5548375]]
+obs=[ 0.8820804  -0.23477557  0.98842955  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.28666666], reward=-0.40008705854415894, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.40008705854415894, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 043 | Action: [[-1.5566683  -2.1137922  -0.74865603]]
+obs=[ 0.87634534 -0.23437354  0.9811257   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.29333332], reward=-0.3942869305610657, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3942869305610657, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 044 | Action: [[-1.0937159  2.7997408  1.3677683]]
+obs=[ 0.87136906 -0.23016343  0.97684395  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.3       ], reward=-0.39352700114250183, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.39352700114250183, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 045 | Action: [[-0.5632819   0.83711433 -2.54675   ]]
+obs=[ 0.8659616  -0.22561102  0.9693689   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.30666667], reward=-0.3911244571208954, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3911244571208954, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 046 | Action: [[-1.2633687 -3.7839603 -3.5804737]]
+obs=[ 0.8603445  -0.22473195  0.96194845  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.31333333], reward=-0.3861224949359894, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3861224949359894, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 047 | Action: [[-0.00842577 -0.28064752 -2.35113   ]]
+obs=[ 0.85862917 -0.22712062  0.954098    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.32      ], reward=-0.3792404234409332, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3792404234409332, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 048 | Action: [[-0.46502447 -1.0025327  -1.5774426 ]]
+obs=[ 0.85333735 -0.23172124  0.9466826   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.32666665], reward=-0.37022364139556885, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.37022364139556885, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 049 | Action: [[ 0.8138073 -2.6864958 -2.125449 ]]
+obs=[ 0.8560313  -0.23716709  0.9367871   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.33333334], reward=-0.36072486639022827, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.36072486639022827, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 050 | Action: [[ 0.79419106 -0.87408257 -1.828021  ]]
+obs=[ 0.8596535  -0.24257058  0.9283905   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.34      ], reward=-0.3524329662322998, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3524329662322998, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 051 | Action: [[-0.9010649  1.429565  -2.553137 ]]
+obs=[ 0.8553064  -0.2453234   0.92192465  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.34666666], reward=-0.34567201137542725, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.34567201137542725, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 052 | Action: [[-1.7227271   0.26488256 -2.7974677 ]]
+obs=[ 0.8503278  -0.24479355  0.91446775  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.35333332], reward=-0.34098339080810547, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.34098339080810547, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 053 | Action: [[-1.9857812 -1.0810858 -2.4227183]]
+obs=[ 0.84497064 -0.24755104  0.9070902   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.36      ], reward=-0.3337186872959137, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3337186872959137, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 054 | Action: [[ 0.15104562 -2.2654357   1.9555409 ]]
+obs=[ 0.84965    -0.25259507  0.8979655   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.36666667], reward=-0.32569509744644165, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.32569509744644165, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 055 | Action: [[ 2.5426354 -3.5920758 -4.7500515]]
+obs=[ 0.853313   -0.25805807  0.88952994  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.37333333], reward=-0.31764471530914307, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.31764471530914307, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 056 | Action: [[ 0.17400253  0.56742346 -6.1992054 ]]
+obs=[ 0.8576483  -0.26027256  0.8809527   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.38      ], reward=-0.312577486038208, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.312577486038208, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 057 | Action: [[-1.6796682  1.4347115 -1.227273 ]]
+obs=[ 0.8540919  -0.26030126  0.8736574   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.38666666], reward=-0.3082420229911804, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3082420229911804, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 058 | Action: [[-1.2723966 -4.306031  -1.8296063]]
+obs=[ 0.8487599  -0.26360774  0.8663072   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.39333335], reward=-0.30080631375312805, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.30080631375312805, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 059 | Action: [[-0.8149239 -3.0236235 -2.809727 ]]
+obs=[ 0.84362274 -0.26822335  0.8589573   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.4       ], reward=-0.29239901900291443, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.29239901900291443, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 060 | Action: [[ 1.0342765 -3.1310923 -2.1566806]]
+obs=[ 0.8466262  -0.27383828  0.850294    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.40666667], reward=-0.28440481424331665, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.28440481424331665, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 061 | Action: [[-1.9214073  -0.16106427 -0.20589304]]
+obs=[ 0.8418359  -0.27841726  0.8427693   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.41333333], reward=-0.2761714458465576, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2761714458465576, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 062 | Action: [[ 0.8385254 -1.2790872 -2.0933697]]
+obs=[ 0.8452328  -0.28401434  0.83413565  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.42      ], reward=-0.26852989196777344, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.26852989196777344, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 063 | Action: [[-1.5839702 -2.8732429 -2.8822203]]
+obs=[ 0.8407711  -0.2885446   0.82645786  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.42666668], reward=-0.26052746176719666, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.26052746176719666, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 064 | Action: [[-0.57456136 -0.25446093  1.2082982 ]]
+obs=[ 0.83786845 -0.29282466  0.82097775  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.43333334], reward=-0.2540126144886017, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2540126144886017, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 065 | Action: [[-2.3122501 -1.9228102 -0.908556 ]]
+obs=[ 0.83288777 -0.2974429   0.8136458   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.44      ], reward=-0.24617250263690948, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.24617250263690948, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 066 | Action: [[ 0.33759692 -0.55080426 -3.4868357 ]]
+obs=[ 0.8363123  -0.30308977  0.80548173  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.44666666], reward=-0.2390509992837906, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2390509992837906, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 067 | Action: [[-1.8148267  -0.91752994 -0.20086789]]
+obs=[ 0.8316759  -0.3076497   0.7980016   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.45333335], reward=-0.23151813447475433, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.23151813447475433, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 068 | Action: [[-0.13403001 -0.03176033 -0.60408795]]
+obs=[ 0.826873   -0.3105952   0.7906572   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.46      ], reward=-0.22569409012794495, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.22569409012794495, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 069 | Action: [[ 0.37539563  0.5485306  -2.229935  ]]
+obs=[ 0.82940674 -0.30934218  0.78263664  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.46666667], reward=-0.22538568079471588, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.22538568079471588, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 070 | Action: [[-4.6009264 -1.808979  -3.7039018]]
+obs=[ 0.82493395 -0.31216395  0.7749742   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.47333333], reward=-0.22010283172130585, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.22010283172130585, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 071 | Action: [[ 0.40893495 -3.7241526  -6.1544943 ]]
+obs=[ 0.82855356 -0.31596136  0.7666058   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.48      ], reward=-0.21563738584518433, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.21563738584518433, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 072 | Action: [[-0.1496518  0.9971653 -1.0023963]]
+obs=[ 0.82508206 -0.31874746  0.75917774  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.48666668], reward=-0.21107029914855957, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.21107029914855957, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 073 | Action: [[-0.2815538 -1.8082047 -1.3166304]]
+obs=[ 0.82040244 -0.323306    0.7519123   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.49333334], reward=-0.20482227206230164, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.20482227206230164, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 074 | Action: [[ 0.5810831 -0.5840155 -1.5225599]]
+obs=[ 0.82391745 -0.3285964   0.7438179   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.5       ], reward=-0.1820567548274994, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1996481716632843, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 075 | Action: [[-2.1765385 -1.7892126 -2.7838092]]
+obs=[ 0.81954235 -0.33310696  0.7364571   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.50666666], reward=0.10748542845249176, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19397087395191193, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 076 | Action: [[-2.240517  -1.2505153 -3.7671185]]
+obs=[ 0.8150193  -0.33763158  0.7292295   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.5133333 ], reward=0.38247135281562805, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1885789930820465, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 077 | Action: [[-0.41882727  0.51525235 -0.08301234]]
+obs=[ 0.8117582  -0.33940226  0.72183895  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.52      ], reward=0.4905155152082443, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.186460480093956, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 078 | Action: [[-1.6476814  1.4451857 -2.8945951]]
+obs=[ 0.80797136 -0.33868748  0.71446174  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.52666664], reward=0.45975692570209503, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18706358969211578, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 079 | Action: [[ 1.1687877 -0.8824947 -4.1681623]]
+obs=[ 0.81078774 -0.33871207  0.7061705   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.53333336], reward=0.395503893494606, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18832345306873322, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 080 | Action: [[-1.6483337 -0.9993245 -1.1554058]]
+obs=[ 0.8068336  -0.34300336  0.6988027   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.54      ], reward=0.5833825320005417, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1846395581960678, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 081 | Action: [[-1.0854479 -1.4011955 -0.5905416]]
+obs=[ 0.80261797 -0.34744626  0.6917675   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.5466667 ], reward=0.7628552615642548, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18112048506736755, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 082 | Action: [[-2.3256006 -0.6360021 -2.3133163]]
+obs=[ 0.7985254  -0.35185897  0.68538654  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.55333334], reward=0.9272785186767578, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17789649963378906, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 083 | Action: [[-0.8390494  -2.083735   -0.64959264]]
+obs=[ 0.7945426  -0.3562429   0.6796036   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.56      ], reward=1.0793212801218033, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17491526901721954, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 084 | Action: [[-3.9442291  -0.3914802  -0.44343257]]
+obs=[ 0.79066014 -0.3605994   0.67436665  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.56666666], reward=1.221149429678917, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17213432490825653, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 085 | Action: [[-2.4434896  -3.9552205  -0.45522964]]
+obs=[ 0.7868702  -0.36492974  0.669628    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.5733333 ], reward=1.35450479388237, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16951951384544373, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 086 | Action: [[-3.2193007 -0.5318551 -2.189271 ]]
+obs=[ 0.78316694 -0.3692346   0.6653437   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.58      ], reward=1.4807431399822235, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1670442521572113, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 087 | Action: [[-0.8821443  2.1004815 -0.6806649]]
+obs=[ 0.78075355 -0.37089     0.661291    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.58666664], reward=1.4758110046386719, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16714096069335938, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 088 | Action: [[-0.5936006 -2.570776  -4.3974066]]
+obs=[ 0.777177   -0.37513122  0.65780735  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.5933333 ], reward=1.5931190699338913, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16484080255031586, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 089 | Action: [[ 2.782556  -1.61923   -1.1372292]]
+obs=[ 0.78116375 -0.37952432  0.6537604   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.6       ], reward=1.702429324388504, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1626974642276764, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 090 | Action: [[ 3.9093115  -2.5886626  -0.63111866]]
+obs=[ 0.7820554  -0.3792738   0.653584    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.6066667 ], reward=1.6869679540395737, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16300062835216522, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 091 | Action: [[ 0.01735474 -1.6988664  -0.8663216 ]]
+obs=[ 0.7806588  -0.37907973  0.65350646  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.61333334], reward=1.676197811961174, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16321180760860443, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 092 | Action: [[-2.8732533   1.9114425  -0.54251575]]
+obs=[ 0.7769444  -0.37737152  0.6516232   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.62      ], reward=1.5507346242666245, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16567187011241913, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 093 | Action: [[ 3.6587026  -3.3134022   0.78145885]]
+obs=[ 0.7804246  -0.37572697  0.6503681   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.62666667], reward=1.4498333185911179, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16765032708644867, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 094 | Action: [[-0.4707167 -3.5068605 -2.1441503]]
+obs=[ 0.77816623 -0.37509978  0.6494812   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.6333333 ], reward=1.3984859138727188, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16865713894367218, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 095 | Action: [[ 1.3247333   0.04465771 -1.2608128 ]]
+obs=[ 0.7816611  -0.3707374   0.64600873  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.64      ], reward=1.1202526837587357, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1741126924753189, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 096 | Action: [[-0.869851   -1.9687581  -0.94926816]]
+obs=[ 0.77817214 -0.37070298  0.6432545   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.64666665], reward=1.0482571870088577, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17552436888217926, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 097 | Action: [[ 1.2810758   1.1050001  -0.32366073]]
+obs=[ 0.78198695 -0.36631614  0.64025784  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.6533333 ], reward=0.7800569385290146, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1807831972837448, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 098 | Action: [[ 0.67275506  0.26208532 -0.18074858]]
+obs=[ 0.7843726  -0.36162463  0.64021397  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.66      ], reward=0.569580152630806, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18491019308567047, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 099 | Action: [[ 1.9370892 -0.890591   1.0138891]]
+obs=[ 0.78627914 -0.35930434  0.64200455  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.6666667 ], reward=0.5076282769441605, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18612493574619293, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 100 | Action: [[ 1.1031713 -3.626956  -2.495874 ]]
+obs=[ 0.78807026 -0.359459    0.64157593  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.67333335], reward=0.5015554428100586, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18624401092529297, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 101 | Action: [[0.3283434 1.8962668 1.4799156]]
+obs=[ 0.7924557  -0.35670763  0.64258903  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.68      ], reward=0.39191992580890656, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1883937269449234, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 102 | Action: [[ 1.5314074 -2.5131605 -3.328112 ]]
+obs=[ 0.79444176 -0.35681155  0.6417712   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.68666667], reward=0.3708964139223099, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18880595266819, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 103 | Action: [[ 0.866846  -3.6793437 -3.1879804]]
+obs=[ 0.79670507 -0.35837013  0.6412436   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.6933333 ], reward=0.41970327496528625, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18784895539283752, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 104 | Action: [[-0.5653921  -0.72980684 -1.32982   ]]
+obs=[ 0.7920685  -0.36298934  0.6413359   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.7       ], reward=0.6443426609039307, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18344426155090332, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 105 | Action: [[-0.68220127 -1.3005226  -2.3843365 ]]
+obs=[ 0.7875398  -0.36757618  0.6413955   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.70666665], reward=0.8598708957433701, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17921821773052216, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 106 | Action: [[-4.6394987 -2.6889539 -2.323525 ]]
+obs=[ 0.7831099  -0.37213293  0.64144766  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.7133333 ], reward=1.0669430643320084, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17515797913074493, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 107 | Action: [[-0.19910038  0.6299827  -0.88071156]]
+obs=[ 0.77939504 -0.3721156   0.6414798   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.72      ], reward=1.0664665699005127, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17516732215881348, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 108 | Action: [[-0.29135835 -0.3538195  -0.87740797]]
+obs=[ 0.773862   -0.3720861   0.6415339   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.7266667 ], reward=1.0583076477050781, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17532730102539062, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 109 | Action: [[ 0.3371482  1.9521308 -1.3574096]]
+obs=[ 0.77303463 -0.37061387  0.64181316  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.73333335], reward=0.9986303299665451, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1764974445104599, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 110 | Action: [[-1.0971503 -2.2892654 -1.4064527]]
+obs=[ 0.7680081  -0.37179503  0.6418233   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.74      ], reward=1.0345384031534195, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1757933646440506, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 111 | Action: [[ 1.590183  -1.1202846 -0.5253378]]
+obs=[ 0.7680649  -0.37182125  0.64190483  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.74666667], reward=1.038002297282219, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17572544515132904, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 112 | Action: [[-2.2125878  -0.33993745 -0.5832537 ]]
+obs=[ 0.76503956 -0.37168968  0.64177644  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.75333333], reward=1.015611618757248, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17616447806358337, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 113 | Action: [[ 0.9833469 -2.4698462 -0.1020546]]
+obs=[ 0.76505643 -0.37163463  0.64190525  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.76      ], reward=1.0165646076202393, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1761457920074463, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 114 | Action: [[ 0.852952  -2.9968429 -0.7459945]]
+obs=[ 0.76670593 -0.37185556  0.6419232   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.76666665], reward=1.0343119353055954, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17579780519008636, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 115 | Action: [[ 1.0680543  -0.12453496 -1.4432478 ]]
+obs=[ 0.7683067  -0.3718909   0.6419422   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.7733333 ], reward=1.042970910668373, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17562802135944366, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 116 | Action: [[1.379324   0.64179367 0.4543749 ]]
+obs=[ 0.7724163  -0.36901224  0.6432741   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.78      ], reward=0.9629958420991898, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17719615995883942, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 117 | Action: [[-0.01440617 -0.38287634 -1.7309186 ]]
+obs=[ 0.76954114 -0.37034887  0.6438766   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.7866667 ], reward=1.0283812135457993, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17591409385204315, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 118 | Action: [[ 0.9380696 -0.2781235 -2.4440727]]
+obs=[ 0.77260053 -0.37166542  0.6415391   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.79333335], reward=1.0368152409791946, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17574872076511383, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 119 | Action: [[ 2.9772353   0.83813107 -1.0385153 ]]
+obs=[ 0.7742492  -0.37131917  0.64172256  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.8       ], reward=1.0302590727806091, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17587727308273315, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 120 | Action: [[-0.73501515 -0.12309739 -1.111131  ]]
+obs=[ 0.77221614 -0.37159327  0.641549    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.8066667 ], reward=1.0328528136014938, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17582641541957855, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 121 | Action: [[-3.0297263  -0.02520111 -1.6940337 ]]
+obs=[ 0.7674011  -0.3716134   0.6415965   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.81333333], reward=1.0182843953371048, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1761120706796646, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 122 | Action: [[-2.1118436  -0.48796064 -1.0805807 ]]
+obs=[ 0.7621703  -0.37165818  0.64164245  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.82      ], reward=0.9957493245601654, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17655393481254578, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 123 | Action: [[ 0.03709224 -0.20850427 -0.46387446]]
+obs=[ 0.76219195 -0.37167013  0.6417118   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.82666665], reward=0.9981644749641418, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17650657892227173, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 124 | Action: [[ 2.5741510e+00 -1.5912056e-03 -2.0917553e-01]]
+obs=[ 0.76484406 -0.37174976  0.6417637   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.8333333 ], reward=1.0169696658849716, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17613784968852997, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 125 | Action: [[ 0.69405   -0.0192993 -1.1630793]]
+obs=[ 0.7671604  -0.37179646  0.64180565  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.84      ], reward=1.0306656509637833, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17586930096149445, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 126 | Action: [[-0.93771863 -2.6053348   2.5648315 ]]
+obs=[ 0.7663752  -0.37143394  0.64167064  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.8466667 ], reward=1.0078851133584976, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17631597816944122, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 127 | Action: [[ 0.5459274   0.3050816  -0.83714837]]
+obs=[ 0.766734   -0.37005508  0.6417816   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.85333335], reward=0.9516466110944748, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17741869390010834, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 128 | Action: [[-0.4398902   0.24687779 -0.39506072]]
+obs=[ 0.76270616 -0.36804566  0.6417935   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.86      ], reward=0.8437969982624054, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17953339219093323, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 129 | Action: [[-1.8030012  0.587901  -1.3844084]]
+obs=[ 0.7584141  -0.36483616  0.64179903  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.8666667 ], reward=0.6766515672206879, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18281075358390808, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 130 | Action: [[ 0.8062953  -1.4895267  -0.15471035]]
+obs=[ 0.7583532  -0.36443055  0.6419145   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.87333333], reward=0.6611575186252594, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18311455845832825, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 131 | Action: [[ 0.51797235 -2.9516883   0.40576053]]
+obs=[ 0.76128376 -0.3656538   0.64353675  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.88      ], reward=0.773066833615303, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18092025816440582, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 132 | Action: [[ 0.77280295 -2.4510515   1.0189794 ]]
+obs=[ 0.7647197  -0.36912996  0.6453287   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.88666666], reward=0.9897243678569794, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1766720712184906, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 133 | Action: [[-0.764086    1.2892141   0.53069216]]
+obs=[ 0.7625456  -0.37198266  0.6474646   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.8933333 ], reward=1.1571981012821198, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17338827252388, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 134 | Action: [[ 2.4736874   0.84637845 -0.35897794]]
+obs=[ 0.7652117  -0.3709452   0.64590836  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.9       ], reward=1.087038666009903, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17476394772529602, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 135 | Action: [[-0.52339625  1.4034083   0.11617041]]
+obs=[ 0.7620236  -0.36918405  0.64761335  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.9066667 ], reward=1.0330154448747635, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17582322657108307, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 136 | Action: [[ 3.1801429  -0.37867767 -0.31952775]]
+obs=[ 0.7639252  -0.368194    0.645918    0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.91333336], reward=0.9583676904439926, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17728690803050995, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 137 | Action: [[ 4.594284   -0.35686204 -0.5153204 ]]
+obs=[ 0.7670376  -0.36929083  0.6430698   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.92      ], reward=0.9516329318284988, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17741896212100983, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 138 | Action: [[ 2.2692746e-01 -2.3528934e-04 -1.4473073e+00]]
+obs=[ 0.77055013 -0.36978513  0.64158773  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.9266667 ], reward=0.9492101818323135, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1774664670228958, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 139 | Action: [[ 2.2520552  0.7225944 -0.2765389]]
+obs=[ 0.77374065 -0.3683654   0.64165366  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.93333334], reward=0.8969432264566422, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17849130928516388, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 140 | Action: [[ 3.233283  -1.7880378  1.718507 ]]
+obs=[ 0.77651143 -0.36930257  0.6434566   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.94      ], reward=0.9890525639057159, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17668524384498596, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 141 | Action: [[ 2.7967916   0.2722963  -0.05900437]]
+obs=[ 0.7801006  -0.36776507  0.6426215   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.94666666], reward=0.9034081995487213, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17836454510688782, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 142 | Action: [[-2.9607358 -0.7818668 -1.3347611]]
+obs=[ 0.77590317 -0.3706477   0.6416056   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.9533333 ], reward=1.0008668899536133, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1764535903930664, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 143 | Action: [[ 3.0819526  0.3720725 -2.3282058]]
+obs=[ 0.77612704 -0.37080395  0.6418581   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.96      ], reward=1.0145780742168427, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.176184743642807, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 144 | Action: [[-0.6966829  2.2573614  0.5733939]]
+obs=[ 0.77282196 -0.36960745  0.64397675  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.96666664], reward=1.0080135464668274, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17631345987319946, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 145 | Action: [[ 1.3461903  1.9736992 -2.5575361]]
+obs=[ 0.77453613 -0.36510918  0.6425267   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.97333336], reward=0.7757882475852966, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18086689710617065, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 146 | Action: [[ 3.007143    3.172266   -0.41462126]]
+obs=[ 0.77727085 -0.36033618  0.6418588   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.98      ], reward=0.5504656583070755, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18528498709201813, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 147 | Action: [[-0.7823739  0.7605194 -1.4802438]]
+obs=[ 0.7724906  -0.35599503  0.6418567   0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.9866667 ], reward=0.34631097316741943, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.18928802013397217, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 148 | Action: [[-0.35890657  2.7263162  -0.20945784]]
+obs=[ 0.7676831  -0.3513094   0.64185816  0.7817549  -0.52325195  0.73
+  1.          0.          0.          0.99333334], reward=0.11977852880954742, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19372983276844025, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 149 | Action: [[1.3700309 1.6293509 1.2994115]]
+obs=[ 0.7718068  -0.34616482  0.642109    0.7817549  -0.52325195  0.73
+  1.          0.          0.          1.        ], reward=-0.09537960588932037, terminated=False, truncated=True, info={'is_success': False, 'distance_to_target': 0.19794861972332, 'target_idx': 0, 'target_color_rgba': [1.0, 0.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Episode finished early.
+Environment created successfully.
+Observation space: Box(-inf, inf, (10,), float32)
+Action space: Box(-0.05, 0.05, (3,), float32)
+Initial info: {'target_idx': 2, 'target_color_rgba': [0.0, 0.0, 1.0, 1.0]}
+Step 000 | Action: [[-2.2171535 -1.90307   -0.9943706]]
+obs=[ 0.9440717  -0.2043469   1.2837937   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.00666667], reward=-0.5845781564712524, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5845781564712524, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 001 | Action: [[-0.8304057  1.760879  -3.9717255]]
+obs=[ 0.9431361  -0.20204736  1.2811426   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.01333333], reward=-0.5822489261627197, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5822489261627197, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 002 | Action: [[-1.1513107  2.4679117 -1.6258366]]
+obs=[ 0.94069344 -0.19754341  1.2765398   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.02      ], reward=-0.5781241655349731, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5781241655349731, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 003 | Action: [[-0.18462259  2.5951655   0.35637593]]
+obs=[ 0.9365547  -0.19287768  1.2710923   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.02666667], reward=-0.5728538036346436, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5728538036346436, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 004 | Action: [[-0.22452974  0.68387294 -1.2056228 ]]
+obs=[ 0.9313512  -0.18821108  1.2627459   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.03333334], reward=-0.5646544098854065, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5646544098854065, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 005 | Action: [[ 1.0260928  1.4715853 -1.4375087]]
+obs=[ 0.93183124 -0.18279453  1.2487283   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.04      ], reward=-0.5528066754341125, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5528066754341125, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 006 | Action: [[ 1.2176925  2.417838  -2.428439 ]]
+obs=[ 0.9334475  -0.1773191   1.23659     0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.04666667], reward=-0.5431830883026123, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5431830883026123, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 007 | Action: [[-0.12552786 -1.3384018  -4.970971  ]]
+obs=[ 0.928779   -0.17766657  1.2295634   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.05333333], reward=-0.5353244543075562, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5353244543075562, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 008 | Action: [[-0.31239876 -0.61803615 -4.5975194 ]]
+obs=[ 0.92341745 -0.18192504  1.2216928   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.06      ], reward=-0.5255431532859802, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5255431532859802, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 009 | Action: [[ 1.8887149  -0.88057613 -3.9801807 ]]
+obs=[ 0.9243165  -0.18711723  1.2082343   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.06666667], reward=-0.5119214653968811, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.5119214653968811, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 010 | Action: [[-1.4612544  1.2083173 -1.5538404]]
+obs=[ 0.91879076 -0.18664376  1.200521    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.07333333], reward=-0.503403902053833, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.503403902053833, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 011 | Action: [[-0.05207843  0.03194809 -0.0741806 ]]
+obs=[ 0.91348654 -0.18388204  1.1928217   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.08      ], reward=-0.49557435512542725, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.49557435512542725, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 012 | Action: [[-3.292233    0.53284764 -2.135849  ]]
+obs=[ 0.9080853  -0.17940632  1.1851573   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.08666667], reward=-0.4882837235927582, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4882837235927582, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 013 | Action: [[-1.883491   0.696715  -2.8932607]]
+obs=[ 0.90269524 -0.17480819  1.1775141   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.09333333], reward=-0.4811641275882721, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4811641275882721, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 014 | Action: [[ 0.8475957 -1.4460008 -1.5736947]]
+obs=[ 0.90421164 -0.17554428  1.1641719   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.1       ], reward=-0.46893197298049927, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.46893197298049927, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 015 | Action: [[-5.537492    0.25059235 -5.435998  ]]
+obs=[ 0.898942   -0.17122771  1.1562614   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.10666667], reward=-0.4616408944129944, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4616408944129944, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 016 | Action: [[-1.7823441  -0.58682966 -1.9886584 ]]
+obs=[ 0.8936792  -0.17169651  1.1486392   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.11333334], reward=-0.4532412886619568, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4532412886619568, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 017 | Action: [[-3.876923   3.7763498 -3.9817479]]
+obs=[ 0.88825107 -0.16748253  1.1410676   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.12      ], reward=-0.4463750720024109, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4463750720024109, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 018 | Action: [[-2.7406178  3.057473  -1.0394465]]
+obs=[ 0.8828631  -0.16288911  1.133501    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.12666667], reward=-0.43978050351142883, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.43978050351142883, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 019 | Action: [[ 1.866229   2.5704398 -2.220643 ]]
+obs=[ 0.88495207 -0.15741488  1.1209761   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.13333334], reward=-0.4307001829147339, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4307001829147339, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 020 | Action: [[ 0.17472905  0.74108416 -3.4870968 ]]
+obs=[ 0.8877625  -0.15193093  1.1105459   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.14      ], reward=-0.42392638325691223, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.42392638325691223, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 021 | Action: [[ 3.1812403  3.427029  -2.7526858]]
+obs=[ 0.8912215  -0.14648408  1.1022482   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.14666666], reward=-0.4194270968437195, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4194270968437195, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 022 | Action: [[-0.5456342   0.58933616 -3.7152393 ]]
+obs=[ 0.8870592  -0.14194475  1.0983964   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.15333334], reward=-0.41684970259666443, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.41684970259666443, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 023 | Action: [[ 1.1124125   0.35835743 -1.6147625 ]]
+obs=[ 0.89054537 -0.13651885  1.090058    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.16      ], reward=-0.41260573267936707, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.41260573267936707, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 024 | Action: [[-5.611805   2.517822   0.9000919]]
+obs=[ 0.8895819  -0.13234736  1.0867112   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.16666667], reward=-0.4112537205219269, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.4112537205219269, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 025 | Action: [[-6.2529335 -3.5584662 -3.8537407]]
+obs=[ 0.8850572  -0.13214235  1.0808889   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.17333333], reward=-0.40522509813308716, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.40522509813308716, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 026 | Action: [[ 0.7287929 -1.9123392 -5.709576 ]]
+obs=[ 0.8877636  -0.13685277  1.070666    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.18      ], reward=-0.39495524764060974, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.39495524764060974, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 027 | Action: [[-0.8418639 -0.6880539  1.6960449]]
+obs=[ 0.8878334  -0.14198819  1.0662026   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.18666667], reward=-0.388864129781723, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.388864129781723, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 028 | Action: [[ 0.7110239 -2.3843265 -1.2994322]]
+obs=[ 0.89123166 -0.1471313   1.058053    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.19333333], reward=-0.3804709017276764, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3804709017276764, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 029 | Action: [[ 1.2798861 -2.6310728 -4.170741 ]]
+obs=[ 0.894659   -0.15228698  1.0498734   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.2       ], reward=-0.3721458911895752, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3721458911895752, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 030 | Action: [[ 1.9051964  0.6859126 -2.9165072]]
+obs=[ 0.89758754 -0.15307303  1.0417004   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.20666666], reward=-0.3656495213508606, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3656495213508606, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 031 | Action: [[ 0.48232567  1.4445206  -2.243439  ]]
+obs=[ 0.9009264  -0.14985415  1.0335085   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.21333334], reward=-0.36113137006759644, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.36113137006759644, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 032 | Action: [[-0.7375359 -0.3208089 -3.346174 ]]
+obs=[ 0.8962571 -0.1502619  1.0286783  0.7905329 -0.3114453  0.73
+  0.         1.         0.         0.22     ], reward=-0.35548052191734314, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.35548052191734314, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 033 | Action: [[ 0.4412555 -2.3846664 -4.8690286]]
+obs=[ 0.898934   -0.15526694  1.0203102   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.22666667], reward=-0.34701940417289734, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.34701940417289734, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 034 | Action: [[-2.776688  -0.1285365 -4.013799 ]]
+obs=[ 0.8941722  -0.1598314   1.0151113   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.23333333], reward=-0.3391405940055847, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3391405940055847, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 035 | Action: [[-0.9910364 -2.9015226 -3.820324 ]]
+obs=[ 0.8887012 -0.1643561  1.0077894  0.7905329 -0.3114453  0.73
+  0.         1.         0.         0.24     ], reward=-0.32930102944374084, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.32930102944374084, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 036 | Action: [[-1.690171   0.8824115 -4.497096 ]]
+obs=[ 0.8829284  -0.16480221  1.0004009   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.24666667], reward=-0.3211818039417267, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3211818039417267, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 037 | Action: [[-0.9109006  -0.59423125 -4.3472505 ]]
+obs=[ 0.8775035  -0.1691617   0.9929345   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.25333333], reward=-0.3113568127155304, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3113568127155304, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 038 | Action: [[ 0.3559702  0.9135073 -2.6372366]]
+obs=[ 0.88018984 -0.16991673  0.982426    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.26      ], reward=-0.3029646575450897, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.3029646575450897, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 039 | Action: [[-2.385115   1.035569  -4.2755027]]
+obs=[ 0.87552756 -0.16669899  0.97454506  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.26666668], reward=-0.29661062359809875, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.29661062359809875, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 040 | Action: [[-0.31783497 -1.7995138  -1.1342413 ]]
+obs=[ 0.870363   -0.1672095   0.9670898   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.27333334], reward=-0.2887704372406006, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2887704372406006, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 041 | Action: [[ 1.539108    0.55305654 -0.976863  ]]
+obs=[ 0.87335914 -0.16446385  0.9569353   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.28      ], reward=-0.28277790546417236, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.28277790546417236, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 042 | Action: [[-0.24232212  1.5719814  -3.6717508 ]]
+obs=[ 0.8688503  -0.15992978  0.9490772   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.28666666], reward=-0.27764251828193665, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.27764251828193665, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 043 | Action: [[-0.2657274   0.07322973 -3.3706887 ]]
+obs=[ 0.8635417  -0.15532933  0.9417034   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.29333332], reward=-0.27298498153686523, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.27298498153686523, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 044 | Action: [[-0.4820335 -2.6590805 -4.3656297]]
+obs=[ 0.8586472  -0.15427312  0.93424386  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.3       ], reward=-0.2665674388408661, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2665674388408661, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 045 | Action: [[ 0.6635586 -2.00736   -5.0094175]]
+obs=[ 0.8613206  -0.15709372  0.924514    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.30666667], reward=-0.2582072913646698, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2582072913646698, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 046 | Action: [[-0.91515243 -0.12928486 -1.6940179 ]]
+obs=[ 0.8563005  -0.16167341  0.91683996  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.31333333], reward=-0.24832671880722046, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.24832671880722046, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 047 | Action: [[-1.2690225 -1.7889507 -3.628536 ]]
+obs=[ 0.8510141  -0.16624555  0.9093988   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.32      ], reward=-0.2385893166065216, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.2385893166065216, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 048 | Action: [[-2.0622635   0.56038153 -1.2424608 ]]
+obs=[ 0.8454352  -0.1675293   0.90202135  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.32666665], reward=-0.23090563714504242, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.23090563714504242, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 049 | Action: [[-1.018247   -0.86686265 -3.0586295 ]]
+obs=[ 0.8402255  -0.1719585   0.89458245  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.33333334], reward=-0.22138947248458862, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.22138947248458862, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 050 | Action: [[-0.95395696  0.20873642 -2.1391807 ]]
+obs=[ 0.83477664 -0.17323609  0.88719535  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.34      ], reward=-0.21393847465515137, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.21393847465515137, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 051 | Action: [[ 2.832889  -0.3882327 -3.4746985]]
+obs=[ 0.83713365 -0.17772982  0.87804186  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.34666666], reward=-0.20486056804656982, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.20486056804656982, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 052 | Action: [[-0.9766371  -0.09256685 -2.929773  ]]
+obs=[ 0.83199453 -0.18232325  0.87062186  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.35333332], reward=0.03656907379627228, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.19536139070987701, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 053 | Action: [[-0.21432552 -0.4683311  -1.2722458 ]]
+obs=[ 0.8268951  -0.18692243  0.86320525  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.36      ], reward=0.5173200368881226, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1859349012374878, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 054 | Action: [[ 3.2156167   0.05462945 -1.2391278 ]]
+obs=[ 0.829976   -0.18864262  0.8542932   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.36666667], reward=0.8647255152463913, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.17912302911281586, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 055 | Action: [[-3.0806513 -1.8893924 -2.2406187]]
+obs=[ 0.825235   -0.1931627   0.846678    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.37333333], reward=1.3436958938837051, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.16973145306110382, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 056 | Action: [[ 1.6914408  0.2448529 -3.9022045]]
+obs=[ 0.8286204  -0.19480339  0.8377826   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.38      ], reward=1.670733705163002, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1633189469575882, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 057 | Action: [[-0.84655     0.3911358  -0.36657095]]
+obs=[ 0.8242824  -0.19354807  0.82993567  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.38666666], reward=1.9320122450590134, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1581958383321762, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 058 | Action: [[-1.4661582 -1.789042  -3.5956554]]
+obs=[ 0.8193131  -0.1950572   0.8225471   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.39333335], reward=2.2756551653146744, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.151457741856575, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 059 | Action: [[-1.4816985  0.8897002  0.5978136]]
+obs=[ 0.8164037  -0.19378145  0.8171808   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.4       ], reward=2.415806084871292, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.14870968461036682, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 060 | Action: [[ 1.3430579  -0.32220316 -6.3644524 ]]
+obs=[ 0.81903905 -0.19526084  0.8092872   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.40666667], reward=2.6804991215467453, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.14351962506771088, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 061 | Action: [[-1.0565348  0.5412395 -3.9863794]]
+obs=[ 0.81405723 -0.19410099  0.80191404  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.41333333], reward=2.879204139113426, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13962344825267792, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 062 | Action: [[-2.9949474 -2.0906298 -0.5622959]]
+obs=[ 0.8091881  -0.1955586   0.79453486  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.42      ], reward=3.1685707718133926, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.13394959270954132, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 063 | Action: [[-1.5769572 -1.6904907 -4.6188035]]
+obs=[ 0.80435616 -0.19972868  0.7871632   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.42666668], reward=3.5611991435289383, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1262509971857071, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 064 | Action: [[ 1.2584481  1.3997988 -2.087683 ]]
+obs=[ 0.8076627  -0.20124303  0.7788754   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.43333334], reward=3.789972707629204, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.12176524102687836, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 065 | Action: [[-1.0128647 -1.8535405 -3.7685013]]
+obs=[ 0.8031945 -0.2053526  0.7713444  0.7905329 -0.3114453  0.73
+  0.         1.         0.         0.44     ], reward=4.157141305506229, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.11456585675477982, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 066 | Action: [[-1.3432328  -2.8816457  -0.47211242]]
+obs=[ 0.79848045 -0.20994407  0.76400495  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.44666666], reward=4.525631092488766, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.10734056681394577, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 067 | Action: [[-0.36161566 -1.2784201  -2.5716255 ]]
+obs=[ 0.79383194 -0.21453403  0.75667834  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.45333335], reward=4.870908305048943, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.1005704253911972, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 068 | Action: [[ 0.55787015 -3.1941624  -2.3446534 ]]
+obs=[ 0.7972736  -0.22001246  0.7483897   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.46      ], reward=5.231136575341225, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.09350712597370148, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 069 | Action: [[-2.0393836 -3.6518393 -4.2745705]]
+obs=[ 0.79296196 -0.22457664  0.7409426   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.46666667], reward=5.532969199120998, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.0875888392329216, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 070 | Action: [[-1.9397382 -2.6311843 -1.7065467]]
+obs=[ 0.7855921  -0.22718865  0.7413026   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.47333333], reward=5.657104358077049, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.08515481650829315, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 071 | Action: [[-0.13874656 -1.6513243  -3.5558512 ]]
+obs=[ 0.7783364  -0.23140651  0.74198157  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.48      ], reward=5.825931578874588, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.08184447884559631, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 072 | Action: [[-0.00840303 -1.6905292  -2.4860592 ]]
+obs=[ 0.7745026  -0.23610036  0.74264723  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.48666668], reward=6.018803529441357, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.07806267589330673, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 073 | Action: [[ 0.4533283  -0.78544176 -1.2658788 ]]
+obs=[ 0.7745395  -0.24077335  0.7433971   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.49333334], reward=6.241955675184727, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.07368714362382889, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 074 | Action: [[ 2.265909    0.61240053 -2.616065  ]]
+obs=[ 0.7756357  -0.24204539  0.74399215  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.5       ], reward=6.310315527021885, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.0723467543721199, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 075 | Action: [[-4.156447  -2.439488  -0.7126813]]
+obs=[ 0.76867634 -0.24634005  0.744817    0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.50666666], reward=6.416929826140404, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.07025627791881561, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 076 | Action: [[ 0.02633744 -4.2803297   0.13981342]]
+obs=[ 0.7714741  -0.2514567   0.74521166  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.5133333 ], reward=6.697474852204323, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.0647553950548172, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 0}
+Step 077 | Action: [[ 0.6459427 -2.2680998 -2.5005682]]
+obs=[ 0.7724921  -0.25726464  0.7457443   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.52      ], reward=6.9789679273962975, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.05923592299222946, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 1}
+Step 078 | Action: [[ 0.29622355 -1.0970398  -0.7633488 ]]
+obs=[ 0.77361405 -0.263097    0.74614114  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.52666664], reward=7.260990504175425, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.05370606854557991, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 2}
+Step 079 | Action: [[-0.11690685 -0.8103548  -1.1823536 ]]
+obs=[ 0.76697314 -0.2679244   0.7465977   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.53333336], reward=7.3379107266664505, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.05219782888889313, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 3}
+Step 080 | Action: [[-1.3276541 -2.8192024 -2.1674557]]
+obs=[ 0.76053965 -0.2727405   0.74688137  0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.54      ], reward=7.358498211950064, terminated=False, truncated=False, info={'is_success': False, 'distance_to_target': 0.051794152706861496, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 4}
+Step 081 | Action: [[ 1.6625175 -3.6364183 -3.2109919]]
+obs=[ 0.759147   -0.27713096  0.7472972   0.7905329  -0.3114453   0.73
+  0.          1.          0.          0.5466667 ], reward=27.469586960971355, terminated=True, truncated=False, info={'is_success': True, 'distance_to_target': 0.04961594194173813, 'target_idx': 1, 'target_color_rgba': [0.0, 1.0, 0.0, 1.0], 'consecutive_close_steps': 5}
+Episode finished early.

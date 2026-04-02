@@ -33,7 +33,13 @@ def plot_results(*, results_paths: list[Path], output_dir: Path) -> None:
         ("mean_final_distance", "Mean Final Distance"),
     ]
 
+    # print(by_env)
     for env_id, items in by_env.items():
+        run_dir = by_env[env_id][0].get("run_dir", None)
+        if output_dir is None:
+            output_dir = Path(run_dir) / "plots" if run_dir else Path("./plots")
+        print("Plotting results for env:", env_id, " - found in:", output_dir)
+        
         series_by_algo: dict[str, list[dict[str, Any]]] = {}
         for it in items:
             algo = str(it.get("algo") or "unknown")

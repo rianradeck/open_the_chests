@@ -1,0 +1,13 @@
+{
+  "algo": "sac",
+  "device": "cpu",
+  "env_id": "ColoredChestKuka-v0",
+  "env_kwargs": {
+    "observation_space": "extended"
+  },
+  "episodes": 50,
+  "model_path": "runs/test_run/20260401_092604_seed42/models/final_model.zip",
+  "observation_space": "extended",
+  "seed": 42,
+  "total_timesteps": 100000
+}

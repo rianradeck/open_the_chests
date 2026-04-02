@@ -20,8 +20,9 @@ evaluation:
     python -m open_the_chests.cli.dt_eval evaluate  --n-events 200 --env medium
 {'loss': 0.00011046543139465419, 'accuracy': 0.9999999999999167, 'precision': 0.9999999999833333, 'recall': 0.9999999999833333, 'f1': 0.9999999949833334}
 
-    python -m open_the_chests.cli.dt_eval evaluate --n-events 75 --n-events 200 --env hard
-{'loss': 0.0018960953623588597, 'accuracy': 0.9994583333332501, 'precision': 0.9096477794653959, 'recall': 0.9899999999835, 'f1': 0.948124496190939}
+    python -m open_the_chests.cli.dt_eval evaluate  --n-events 200 --env hard
+{'loss': 0.002214645443018526, 'accuracy': 0.99943333333325, 'precision': 0.9067278287323131, 'recall': 0.9883333333168611, 'f1': 0.945773519715081}
+
 
 tests: 
     graphs

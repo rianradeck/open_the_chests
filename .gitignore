@@ -5,3 +5,6 @@
 *.mov
 *.mkv
 *.ipynb_checkpoints
+*.zip
+*.png
+*.pt

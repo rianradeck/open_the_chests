@@ -4,6 +4,7 @@ Reproducible training/evaluation runs for Gymnasium environments with a consiste
 
 Current focus:
 - **Stable-Baselines3 (SB3)** pipelines (PPO/SAC)
+- **PyTorch Transformer** pipeline (Decision Transformer-style sequence model)
 - **TensorBoard** as the source of truth for training/eval curves
 
 ---
@@ -23,6 +24,7 @@ pip install -r requirements.txt
 Notes:
 - SB3 relies on **PyTorch**; depending on your platform, installing it may take time.
 - The KUKA environment requires **PyBullet**.
+- The OpenTheChests Transformer pipeline uses the external `openthechests` package (sequence generator).
 
 ### Train (writes TensorBoard training logs)
 
@@ -66,6 +68,39 @@ python3 -m open_the_chests.cli.sb3_eval \
 Eval logs are written under:
 - `<run_dir>/tb/eval/...`
 
+### Decision Transformer (PyTorch Transformer)
+
+This pipeline trains a Transformer on **OpenTheChests event sequences** (generated via the `openthechests` generator).
+It writes TensorBoard logs and run artifacts in the same layout as SB3.
+
+Train:
+
+```bash
+python3 -m open_the_chests.cli.dt_train \
+  --run-name dt_medium \
+  --env medium \
+  --seed 0 \
+  --num-sequences 2000 \
+  --n-events 200 \
+  --epochs 50 \
+  --batch-size 32 \
+  --lr 1e-4
+```
+
+Evaluate (writes eval metrics to TensorBoard and `results.json`):
+
+```bash
+python3 -m open_the_chests.cli.dt_eval evaluate \
+  --env medium \
+  --seed 0 \
+  --run-dir <run_dir> \
+  --model-path <run_dir>/models/final_model.pt \
+  --num-sequences 200 \
+  --n-events 200 \
+  --batch-size 32 \
+  --threshold 0.5
+```
+
 ### “Plot” (starts TensorBoard)
 
 Instead of generating PNGs, `plot` launches TensorBoard and aggregates the runs you point it to.
@@ -98,6 +133,7 @@ High-level layout:
 │   ├── envs/                       # Env registration + get_env factory
 │   ├── frameworks/
 │   │   └── sb3/                    # SB3 pipelines
+│   │   └── pytorch_transformer/     # Decision Transformer-style pipeline
 │   ├── utils/                      # run directories, results.json, seeding
 │   └── viz/                        # (optional) plotting utilities
 ├── legacy/                         # notebooks / legacy experiments
@@ -205,6 +241,11 @@ open_the_chests/cli/agilerl_eval.py
 
 5) Use the environment factory:
 - Always create environments via `open_the_chests.envs.factory.get_env(...)`
+
+### Contributing to the Decision Transformer pipeline
+
+The current Decision Transformer pipeline lives in `open_the_chests/frameworks/pytorch_transformer/`.
+If you change event types/colors/instructions, prefer keeping the model configurable (it should infer `num_types`/`num_colors` from the registry/dataset).
 
 ### PR checklist
 

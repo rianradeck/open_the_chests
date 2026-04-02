@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+from pathlib import Path
+from typing import Literal
+
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
@@ -42,7 +45,58 @@ def _draw_events_on_ax(ax, events):
     ax.set_ylabel("Rows")
 
 from open_the_chests.frameworks.pytorch_transformer.decision_transformer import DecisionTransformer
-from open_the_chests.frameworks.pytorch_transformer.dataset import ChestDataset, build_trajectory, NUM_CHESTS
+from open_the_chests.frameworks.pytorch_transformer.dataset import ALL_BG, ALL_TYPES, ChestDataset, build_trajectory, NUM_CHESTS
+
+
+def _load_dt_model(
+    *,
+    load_path: str,
+    n_events: int,
+    K: int | None,
+    device: str,
+    model_type: Literal["scratch", "pretrained"],
+    pretrained_name: str | None,
+    d_model: int = 128,
+    nhead: int = 4,
+    num_layers: int = 3,
+    dropout: float = 0.1,
+) -> nn.Module:
+    max_seq_len = (K if K is not None else n_events)
+
+    if model_type == "scratch":
+        model: nn.Module = DecisionTransformer(
+            d_model=int(d_model),
+            nhead=int(nhead),
+            num_layers=int(num_layers),
+            max_seq_len=max_seq_len,
+            num_types=len(ALL_TYPES),
+            num_colors=len(ALL_BG),
+            num_chests=NUM_CHESTS,
+            dropout=float(dropout),
+        ).to(device)
+    elif model_type == "pretrained":
+        if not pretrained_name:
+            raise ValueError("pretrained_name é obrigatório quando model_type=pretrained")
+
+        from open_the_chests.frameworks.pytorch_transformer.pretrained_decision_transformer import (
+            PretrainedDecisionTransformer,
+        )
+
+        model = PretrainedDecisionTransformer(
+            pretrained_name=str(pretrained_name),
+            num_types=len(ALL_TYPES),
+            num_colors=len(ALL_BG),
+            num_chests=NUM_CHESTS,
+            dropout=float(dropout),
+            freeze_backbone=True,
+        ).to(device)
+    else:
+        raise ValueError(f"model_type inválido: {model_type}")
+
+    state = torch.load(load_path, map_location=device)
+    model.load_state_dict(state)
+    model.eval()
+    return model
 
 
 def evaluate(
@@ -110,6 +164,77 @@ def evaluate(
         "recall":    recall,
         "f1":        f1,
     }
+    return metrics
+
+
+def evaluate_dt(
+    *,
+    load_path: str | None = None,
+    num_sequences: int = 100,
+    n_events: int = 200,
+    K: int | None = None,
+    batch_size: int = 32,
+    threshold: float = 0.5,
+    device: str | None = None,
+    env: str = "medium",
+    tb_log_dir: str | Path | None = None,
+    model_type: Literal["scratch", "pretrained"] = "scratch",
+    pretrained_name: str | None = None,
+    d_model: int = 128,
+    nhead: int = 4,
+    num_layers: int = 3,
+    dropout: float = 0.1,
+) -> dict:
+    if device is None:
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+    if load_path is None:
+        load_path = f"{env}_decision_transformer.pt"
+
+    model = _load_dt_model(
+        load_path=str(load_path),
+        n_events=int(n_events),
+        K=K,
+        device=str(device),
+        model_type=model_type,
+        pretrained_name=pretrained_name,
+        d_model=int(d_model),
+        nhead=int(nhead),
+        num_layers=int(num_layers),
+        dropout=float(dropout),
+    )
+
+    metrics = evaluate(
+        model=model,  # type: ignore[arg-type]
+        load_path=None,
+        num_sequences=num_sequences,
+        n_events=n_events,
+        K=K,
+        batch_size=batch_size,
+        threshold=threshold,
+        device=device,
+        env=env,
+    )
+
+    if tb_log_dir is not None:
+        try:
+            from torch.utils.tensorboard import SummaryWriter  # type: ignore[import-not-found]
+        except Exception as e:
+            raise RuntimeError(
+                "TensorBoard SummaryWriter não está disponível. Instale `tensorboard` no seu ambiente."
+            ) from e
+
+        Path(tb_log_dir).mkdir(parents=True, exist_ok=True)
+        writer = SummaryWriter(log_dir=str(tb_log_dir))
+        try:
+            for k, v in metrics.items():
+                try:
+                    writer.add_scalar(f"eval/{k}", float(v), 0)
+                except Exception:
+                    continue
+            writer.flush()
+        finally:
+            writer.close()
+
     return metrics
 
 

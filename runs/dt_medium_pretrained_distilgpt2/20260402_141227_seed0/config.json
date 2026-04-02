@@ -1,0 +1,25 @@
+{
+  "algo": "decision_transformer",
+  "batch_size": 2,
+  "context_len": 200,
+  "device": "cuda",
+  "env": "medium",
+  "epochs": 15,
+  "framework": "pytorch_transformer",
+  "lr": 0.0001,
+  "model": {
+    "d_model": 128,
+    "dropout": 0.1,
+    "freeze_backbone": true,
+    "nhead": 4,
+    "num_chests": 3,
+    "num_colors": 8,
+    "num_layers": 3,
+    "num_types": 15,
+    "pretrained_name": "distilgpt2",
+    "type": "pretrained"
+  },
+  "n_events": 200,
+  "num_sequences": 1000,
+  "seed": 0
+}

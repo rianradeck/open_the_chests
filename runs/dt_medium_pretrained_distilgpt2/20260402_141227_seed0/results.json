@@ -1,0 +1,19 @@
+{
+  "algo": "decision_transformer",
+  "batch_size": 2,
+  "context_len": 200,
+  "device": "cuda",
+  "env": "medium",
+  "epochs": 15,
+  "final_train_loss": 2.0456433365779957e-05,
+  "framework": "pytorch_transformer",
+  "freeze_backbone": true,
+  "lr": 0.0001,
+  "model_path": "runs/dt_medium_pretrained_distilgpt2/20260402_141227_seed0/models/final_model.pt",
+  "model_type": "pretrained",
+  "n_events": 200,
+  "num_sequences": 1000,
+  "pretrained_name": "distilgpt2",
+  "run_dir": "runs/dt_medium_pretrained_distilgpt2/20260402_141227_seed0",
+  "seed": 0
+}

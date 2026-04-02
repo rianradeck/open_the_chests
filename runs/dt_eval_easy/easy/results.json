@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.9999999999999167,
+  "algo": "decision_transformer",
+  "batch_size": 32,
+  "command": "evaluate",
+  "device": null,
+  "env": "easy",
+  "f1": 0.9999999949833334,
+  "framework": "pytorch_transformer",
+  "loss": 0.00013449199988307164,
+  "model_path": "/home/gabriel/open_the_chests/runs/dt_train/easy/models/final_model.pt",
+  "model_type": "scratch",
+  "n_events": 200,
+  "num_sequences": 200,
+  "precision": 0.9999999999833333,
+  "pretrained_name": null,
+  "recall": 0.9999999999833333,
+  "run_dir": "runs/dt_eval_easy/20260402_151216_seedNone",
+  "seed": null,
+  "threshold": 0.5
+}

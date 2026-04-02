@@ -36,7 +36,7 @@ def _build_parser() -> argparse.ArgumentParser:
 
     # --- test ---
     ts = sub.add_parser("test", help="Generate one sequence and plot predictions.")
-    ts.add_argument("--model-path",      type=str,   required=True)
+    ts.add_argument("--model-path",      type=str,   default=None)
     ts.add_argument("--n-events",        type=int,   default=50)
     ts.add_argument("--train-n-events",  type=int,   default=None)
     ts.add_argument("--threshold",       type=float, default=0.5)

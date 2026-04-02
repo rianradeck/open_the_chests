@@ -1,0 +1,13 @@
+{
+  "algo": "ppo",
+  "device": "cpu",
+  "env_id": "ColoredChestKuka-v0",
+  "mean_ep_len": 69.62,
+  "mean_final_distance": 0.02907957077026367,
+  "mean_reward": 128.33269678354264,
+  "model_path": "runs/my_ppo_run_extended/20260402_140209_seed42/models/final_model.zip",
+  "run_dir": "runs/eval_ColoredChestKuka-v0/20260402_141903_seed42",
+  "seed": 42,
+  "success_rate": 1.0,
+  "total_timesteps": null
+}

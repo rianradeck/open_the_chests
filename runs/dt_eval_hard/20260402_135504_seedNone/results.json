@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.99943333333325,
+  "algo": "decision_transformer",
+  "batch_size": 32,
+  "command": "evaluate",
+  "device": null,
+  "env": "hard",
+  "f1": 0.945773519715081,
+  "framework": "pytorch_transformer",
+  "loss": 0.002214645443018526,
+  "model_path": null,
+  "model_type": "scratch",
+  "n_events": 200,
+  "num_sequences": 200,
+  "precision": 0.9067278287323131,
+  "pretrained_name": null,
+  "recall": 0.9883333333168611,
+  "run_dir": "runs/dt_eval_hard/20260402_135504_seedNone",
+  "seed": null,
+  "threshold": 0.5
+}

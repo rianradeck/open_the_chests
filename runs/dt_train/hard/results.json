@@ -1,0 +1,19 @@
+{
+  "algo": "decision_transformer",
+  "batch_size": 32,
+  "context_len": null,
+  "device": "cuda",
+  "env": "hard",
+  "epochs": 250,
+  "final_train_loss": 0.0006225846773304511,
+  "framework": "pytorch_transformer",
+  "freeze_backbone": null,
+  "lr": 0.0001,
+  "model_path": "runs/dt_train/20260402_150406_seedNone/models/final_model.pt",
+  "model_type": "scratch",
+  "n_events": 200,
+  "num_sequences": 500,
+  "pretrained_name": null,
+  "run_dir": "runs/dt_train/20260402_150406_seedNone",
+  "seed": null
+}

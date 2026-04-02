@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 
-from open_the_chests.models.train import train
+from open_the_chests.frameworks.pytorch_transformer.train import train
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -13,7 +13,8 @@ def _build_parser() -> argparse.ArgumentParser:
     p.add_argument("--batch-size",    type=int, default=32)
     p.add_argument("--lr",            type=float, default=1e-4)
     p.add_argument("--device",        type=str, default=None)
-    p.add_argument("--save-path",     type=str, default="decision_transformer.pt")
+    p.add_argument("--save-path",     type=str, default=None,
+                   help="Path to save model (default: {env}_decision_transformer.pt)")
     p.add_argument("--env",           type=str, default="medium", choices=["easy", "medium", "hard"])
     return p
 

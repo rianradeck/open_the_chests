@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 
-from open_the_chests.models.eval import evaluate, test_sequence
+from open_the_chests.frameworks.pytorch_transformer.eval import evaluate, test_sequence
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -11,7 +11,8 @@ def _build_parser() -> argparse.ArgumentParser:
 
     # --- evaluate ---
     ev = sub.add_parser("evaluate", help="Compute accuracy, precision, recall, F1.")
-    ev.add_argument("--model-path",    type=str,   required=True)
+    ev.add_argument("--model-path",    type=str,   default=None,
+                   help="Path to model (default: {env}_decision_transformer.pt)")
     ev.add_argument("--num-sequences", type=int,   default=200)
     ev.add_argument("--n-events",      type=int,   default=200)
     ev.add_argument("--batch-size",    type=int,   default=32)

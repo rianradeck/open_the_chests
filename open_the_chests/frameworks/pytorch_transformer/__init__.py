@@ -1,0 +1,1 @@
+from open_the_chests.frameworks.pytorch_transformer.decision_transformer import DecisionTransformer
